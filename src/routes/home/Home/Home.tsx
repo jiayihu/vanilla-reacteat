@@ -1,9 +1,10 @@
 import './Home.css';
 
-import React, { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getOrders } from '../../../services/orders.service';
 import { Placeholder } from '../../../ui/Placeholder/Placeholder';
+import type { AddressData } from '../HomeAddressBox/HomeAddressBox';
 import { HomeAddressBox } from '../HomeAddressBox/HomeAddressBox';
 import { PastOrder } from '../PastOrder/PastOrder';
 import coverImg from './cover.jpg';
@@ -12,7 +13,7 @@ export function Home() {
   const navigate = useNavigate();
   const [orders, setOrders] = useState(null);
   const handleSubmit = useCallback(
-    (data) => {
+    (data: AddressData) => {
       navigate(`/search?address=${encodeURIComponent(data.address)}`);
     },
     [navigate],

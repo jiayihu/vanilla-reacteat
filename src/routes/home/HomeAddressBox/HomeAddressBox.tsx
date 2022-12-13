@@ -1,23 +1,31 @@
 import './HomeAddressBox.css';
 
-import React, { useCallback, useState } from 'react';
-import PropTypes from 'prop-types';
+import { ChangeEvent, FormEvent, useCallback, useState } from 'react';
+import { Button } from '../../../ui/Button/Button';
 import { Field } from '../../../ui/Field/Field';
 import { InputText } from '../../../ui/InputText/InputText';
-import { Label } from '../../../ui/Label/Label';
 import { InputToggle } from '../../../ui/InputToggle/InputToggle';
-import { Button } from '../../../ui/Button/Button';
+import { Label } from '../../../ui/Label/Label';
 import { useLocalStorage } from '../../shared/hooks/use-localstorage';
 
-export function HomeAddressBox(props) {
+export type AddressData = { address: string; locationAgreement: boolean };
+
+type Props = {
+  onSubmit: (data: AddressData) => void;
+};
+
+export function HomeAddressBox(props: Props) {
   const { onSubmit } = props;
   const [address, setAddress] = useLocalStorage('REACTEAT_ADDRESS', '');
   const [agree, setAgree] = useState(false);
 
-  const handleAddressChange = useCallback((event) => setAddress(event.target.value), [setAddress]);
+  const handleAddressChange = useCallback(
+    (event: ChangeEvent<HTMLInputElement>) => setAddress(event.target.value),
+    [setAddress],
+  );
   const handleAgreeChange = useCallback(() => setAgree(!agree), [agree]);
   const handleSubmit = useCallback(
-    (event) => {
+    (event: FormEvent<HTMLFormElement>) => {
       event.preventDefault();
       onSubmit({
         address,
@@ -38,7 +46,7 @@ export function HomeAddressBox(props) {
         </Field>
 
         <InputToggle id="location" checked={agree} onChange={handleAgreeChange}>
-          I agree to share my location in order to get tailored offers
+          <span>I agree to share my location in order to get tailored offers</span>
         </InputToggle>
 
         <div className="mt-3">
@@ -50,7 +58,3 @@ export function HomeAddressBox(props) {
     </form>
   );
 }
-
-HomeAddressBox.propTypes = {
-  onSubmit: PropTypes.func.isRequired,
-};

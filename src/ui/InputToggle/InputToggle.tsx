@@ -1,9 +1,14 @@
 import './InputToggle.css';
 
-import React from 'react';
 import PropTypes from 'prop-types';
+import React, { ReactNode } from 'react';
 
-export function InputToggle(props) {
+type Props = {
+  id: string;
+  children: ReactNode;
+} & Omit<React.InputHTMLAttributes<HTMLInputElement>, 'id' | 'children'>;
+
+export function InputToggle(props: Props) {
   const { id, children, ...inputProps } = props;
 
   return (

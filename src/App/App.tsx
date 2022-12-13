@@ -1,6 +1,6 @@
 import './App.css';
 
-import React from 'react';
+import React, { ErrorInfo } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Checkout } from '../routes/checkout/Checkout/Checkout';
 import { ErrorBoundary } from '../routes/errors/ErrorBoundary/ErrorBoundary';
@@ -17,11 +17,11 @@ export class App extends React.Component {
     hasError: false,
   };
 
-  static getDerivedStateFromError(error) {
+  static getDerivedStateFromError(_error: unknown) {
     return { hasError: true };
   }
 
-  componentDidCatch(error, errorInfo) {
+  componentDidCatch(error: Error, errorInfo: ErrorInfo) {
     console.log(error, errorInfo);
   }
 
