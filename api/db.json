@@ -1,0 +1,3675 @@
+{
+  "restaurants": [
+    {
+      "id": "d338b7fd-d74c-45a4-845f-9481713a9ea0",
+      "name": "Lindgren, Dare and Kiehn",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "3397 Rodriguez Dam Apt. 500",
+      "categories": [
+        "kebab"
+      ],
+      "reviews": {
+        "average": 4.4,
+        "count": 474
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "c83ad655-d298-4196-91de-e85e3dd01208",
+            "name": "Handmade Granite Car",
+            "weight": 171,
+            "type": "food",
+            "kcal": 507,
+            "price": 75.56
+          },
+          {
+            "id": "2935fe77-b952-444c-ae11-28c7059ae938",
+            "name": "Handcrafted Granite Bike",
+            "weight": 741,
+            "type": "food",
+            "kcal": 150,
+            "price": 62.3
+          },
+          {
+            "id": "01d7cdd4-3ad1-4f17-b625-c62f0b6db158",
+            "name": "Practical Concrete Chair",
+            "weight": 406,
+            "type": "food",
+            "kcal": 909,
+            "price": 98.47
+          },
+          {
+            "id": "50cf2d77-48ff-43f7-a2d1-42abd8e34108",
+            "name": "Handmade Plastic Shirt",
+            "weight": 617,
+            "type": "food",
+            "kcal": 715,
+            "price": 22.12
+          },
+          {
+            "id": "240daab0-d9d0-4d79-8c18-1e7ff5bfbad7",
+            "name": "Gorgeous Frozen Keyboard",
+            "weight": 350,
+            "type": "drink",
+            "kcal": 587,
+            "price": 43.99
+          },
+          {
+            "id": "a9963da7-afdc-424b-898f-5b536898b6ca",
+            "name": "Tasty Granite Chair",
+            "weight": 547,
+            "type": "food",
+            "kcal": 739,
+            "price": 29.01
+          },
+          {
+            "id": "92189ba4-f727-437b-8901-2b7464a411a5",
+            "name": "Awesome Metal Salad",
+            "weight": 698,
+            "type": "food",
+            "kcal": 443,
+            "price": 72.34
+          },
+          {
+            "id": "c7bfce6f-83eb-4d3e-802a-ef71484d5817",
+            "name": "Licensed Fresh Bike",
+            "weight": 213,
+            "type": "food",
+            "kcal": 922,
+            "price": 53.78
+          },
+          {
+            "id": "aec574d3-3d0c-498c-8304-5c5bad8b5e82",
+            "name": "Intelligent Cotton Car",
+            "weight": 19,
+            "type": "food",
+            "kcal": 165,
+            "price": 91.32
+          },
+          {
+            "id": "b7de0d91-8615-4e3f-98a3-157580905462",
+            "name": "Awesome Fresh Chair",
+            "weight": 749,
+            "type": "drink",
+            "kcal": 472,
+            "price": 88.65
+          },
+          {
+            "id": "b2299d1d-9482-4051-a56f-334b98b0b35e",
+            "name": "Sleek Metal Hat",
+            "weight": 618,
+            "type": "drink",
+            "kcal": 399,
+            "price": 76.55
+          }
+        ]
+      },
+      "deliveryCharge": 4.8
+    },
+    {
+      "id": "a31990a8-5442-493b-9c72-cb4ff4b6bdaf",
+      "name": "Lang and Sons",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "319 Gusikowski Estate Suite 085",
+      "categories": [
+        "salad",
+        "chinese",
+        "pizza"
+      ],
+      "reviews": {
+        "average": 4.9,
+        "count": 147
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "589c68d9-131a-4ddb-8757-58522dd3ba0b",
+            "name": "Small Plastic Cheese",
+            "weight": 659,
+            "type": "food",
+            "kcal": 697,
+            "price": 2.74
+          },
+          {
+            "id": "96832961-4a14-403d-a72b-8b000f2b23e0",
+            "name": "Tasty Plastic Mouse",
+            "weight": 931,
+            "type": "drink",
+            "kcal": 149,
+            "price": 33.08
+          },
+          {
+            "id": "a6ffcde2-78df-40b5-91d5-61956c01c5c1",
+            "name": "Awesome Cotton Gloves",
+            "weight": 213,
+            "type": "food",
+            "kcal": 733,
+            "price": 21.94
+          },
+          {
+            "id": "3f37e6b9-c6c3-4273-8fc8-ba5cb6f648e2",
+            "name": "Unbranded Plastic Hat",
+            "weight": 661,
+            "type": "food",
+            "kcal": 354,
+            "price": 55.46
+          },
+          {
+            "id": "a6f0a144-d37c-49ea-91c8-db118b8adddb",
+            "name": "Refined Wooden Chicken",
+            "weight": 209,
+            "type": "drink",
+            "kcal": 428,
+            "price": 83.26
+          },
+          {
+            "id": "7d1d9f1d-a89e-48db-8c05-989e188c308c",
+            "name": "Fantastic Steel Soap",
+            "weight": 575,
+            "type": "drink",
+            "kcal": 781,
+            "price": 9.92
+          },
+          {
+            "id": "d28053ad-9881-45eb-bfed-8f5258c7fb54",
+            "name": "Awesome Steel Cheese",
+            "weight": 174,
+            "type": "drink",
+            "kcal": 986,
+            "price": 27.39
+          },
+          {
+            "id": "55281b57-48e0-4b15-9e57-aa42da124147",
+            "name": "Generic Fresh Gloves",
+            "weight": 592,
+            "type": "drink",
+            "kcal": 767,
+            "price": 80.71
+          },
+          {
+            "id": "ee56f934-737f-4d94-a107-1f0c0b74aaf8",
+            "name": "Unbranded Granite Sausages",
+            "weight": 621,
+            "type": "food",
+            "kcal": 461,
+            "price": 40.66
+          },
+          {
+            "id": "0609b709-9511-49b2-a640-14962cf58f9b",
+            "name": "Practical Steel Chicken",
+            "weight": 593,
+            "type": "drink",
+            "kcal": 855,
+            "price": 63.06
+          },
+          {
+            "id": "1e460f24-b96f-4b72-a6f5-5167f38db2f1",
+            "name": "Rustic Steel Chair",
+            "weight": 375,
+            "type": "food",
+            "kcal": 947,
+            "price": 12.55
+          },
+          {
+            "id": "723eaa93-f0d8-453f-862a-90221d3cb468",
+            "name": "Intelligent Soft Shirt",
+            "weight": 864,
+            "type": "drink",
+            "kcal": 18,
+            "price": 5.06
+          },
+          {
+            "id": "6666ead8-2d08-436f-8b70-9ab7a8a0bc08",
+            "name": "Awesome Fresh Cheese",
+            "weight": 361,
+            "type": "drink",
+            "kcal": 410,
+            "price": 83.12
+          },
+          {
+            "id": "5c99b305-5459-496e-95e4-679fb5d0fad5",
+            "name": "Handcrafted Frozen Sausages",
+            "weight": 720,
+            "type": "food",
+            "kcal": 282,
+            "price": 78.72
+          }
+        ]
+      },
+      "deliveryCharge": 3.9
+    },
+    {
+      "id": "836989a6-1215-493a-912d-954df0e039b7",
+      "name": "O'Conner - Toy",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "4143 Darrion Lodge Suite 029",
+      "categories": [
+        "chinese",
+        "burgers"
+      ],
+      "reviews": {
+        "average": 3.4,
+        "count": 136
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "1c78fba9-8605-4a25-a410-633f48bd4b95",
+            "name": "Ergonomic Fresh Ball",
+            "weight": 84,
+            "type": "food",
+            "kcal": 330,
+            "price": 51.36
+          },
+          {
+            "id": "b924b4b7-79b6-4d9a-9b6e-7607f9751168",
+            "name": "Small Steel Table",
+            "weight": 965,
+            "type": "food",
+            "kcal": 64,
+            "price": 10.74
+          },
+          {
+            "id": "569a688e-4fe6-4ace-afab-ce3449bd2331",
+            "name": "Fantastic Fresh Soap",
+            "weight": 336,
+            "type": "drink",
+            "kcal": 501,
+            "price": 76.53
+          },
+          {
+            "id": "5721cf4c-e722-4bc8-9484-f09ea939d761",
+            "name": "Practical Soft Bacon",
+            "weight": 971,
+            "type": "food",
+            "kcal": 489,
+            "price": 83.98
+          },
+          {
+            "id": "a9c47684-df7a-4d0f-b9e6-89e66ced1ee2",
+            "name": "Rustic Granite Computer",
+            "weight": 697,
+            "type": "food",
+            "kcal": 398,
+            "price": 68.29
+          },
+          {
+            "id": "868169d0-c730-4156-b680-1e2d35979ac0",
+            "name": "Awesome Wooden Shoes",
+            "weight": 883,
+            "type": "food",
+            "kcal": 136,
+            "price": 60.61
+          },
+          {
+            "id": "a00b5c12-0b10-491d-a8d9-57b6df864f06",
+            "name": "Licensed Soft Hat",
+            "weight": 671,
+            "type": "food",
+            "kcal": 771,
+            "price": 55.98
+          },
+          {
+            "id": "3a266ba3-2dd6-4706-b2dc-38b9be365d82",
+            "name": "Gorgeous Soft Mouse",
+            "weight": 622,
+            "type": "food",
+            "kcal": 589,
+            "price": 77.95
+          },
+          {
+            "id": "b135f202-c75b-472c-b432-90cb92dc83dc",
+            "name": "Sleek Concrete Towels",
+            "weight": 540,
+            "type": "drink",
+            "kcal": 210,
+            "price": 41.45
+          },
+          {
+            "id": "34fb344c-bec4-454a-bb8b-2da71fb1cb27",
+            "name": "Practical Cotton Mouse",
+            "weight": 9,
+            "type": "drink",
+            "kcal": 873,
+            "price": 79.16
+          },
+          {
+            "id": "6d9257c9-f0ed-44f2-af54-2253c0bea102",
+            "name": "Incredible Cotton Sausages",
+            "weight": 692,
+            "type": "drink",
+            "kcal": 478,
+            "price": 95.33
+          },
+          {
+            "id": "abd40219-2f3f-4e87-abdc-35f685b92f6d",
+            "name": "Fantastic Plastic Table",
+            "weight": 600,
+            "type": "food",
+            "kcal": 582,
+            "price": 96.07
+          },
+          {
+            "id": "4e8cf35b-0f6d-4ceb-a6e3-d8a272424379",
+            "name": "Practical Steel Chair",
+            "weight": 685,
+            "type": "food",
+            "kcal": 854,
+            "price": 32.68
+          }
+        ]
+      },
+      "deliveryCharge": 2.9
+    },
+    {
+      "id": "2f4ef784-b81c-45f8-a66a-bfce2d5f809e",
+      "name": "Kovacek - Schroeder",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "3287 Effertz Mount Apt. 942",
+      "categories": [
+        "pizza"
+      ],
+      "reviews": {
+        "average": 2,
+        "count": 128
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "ae50f356-7250-438e-99e6-849789caebbc",
+            "name": "Generic Metal Cheese",
+            "weight": 765,
+            "type": "drink",
+            "kcal": 629,
+            "price": 99.42
+          },
+          {
+            "id": "816a57f3-a88d-48b5-a5a2-1af5c95b1506",
+            "name": "Rustic Rubber Mouse",
+            "weight": 197,
+            "type": "drink",
+            "kcal": 955,
+            "price": 27.56
+          },
+          {
+            "id": "9f6afe9e-0814-4848-91ea-4323c1b6be36",
+            "name": "Handcrafted Soft Sausages",
+            "weight": 507,
+            "type": "drink",
+            "kcal": 8,
+            "price": 56.43
+          },
+          {
+            "id": "9bdad0ca-6f5a-46de-a42e-16efe1f575cd",
+            "name": "Awesome Steel Shoes",
+            "weight": 625,
+            "type": "drink",
+            "kcal": 661,
+            "price": 97.68
+          },
+          {
+            "id": "dce207e5-4706-4685-a01a-381b45c0fd89",
+            "name": "Intelligent Concrete Chicken",
+            "weight": 17,
+            "type": "drink",
+            "kcal": 283,
+            "price": 79.15
+          },
+          {
+            "id": "f9643a84-3a37-43d8-abfe-4e1da6919ddf",
+            "name": "Gorgeous Cotton Shoes",
+            "weight": 809,
+            "type": "food",
+            "kcal": 249,
+            "price": 2.55
+          },
+          {
+            "id": "ad29d9bc-9e53-4802-ba04-84d07b60b974",
+            "name": "Incredible Concrete Bike",
+            "weight": 104,
+            "type": "food",
+            "kcal": 483,
+            "price": 15.55
+          },
+          {
+            "id": "8c5d3dd8-036b-4031-893d-e0e81bbd3aaa",
+            "name": "Intelligent Frozen Cheese",
+            "weight": 498,
+            "type": "drink",
+            "kcal": 360,
+            "price": 69.88
+          },
+          {
+            "id": "e382b51d-696b-4cf4-9b74-e13afdd3c112",
+            "name": "Intelligent Rubber Bike",
+            "weight": 173,
+            "type": "drink",
+            "kcal": 461,
+            "price": 29.92
+          },
+          {
+            "id": "76457571-c441-42dc-816f-a2ecb702d207",
+            "name": "Small Wooden Salad",
+            "weight": 239,
+            "type": "drink",
+            "kcal": 704,
+            "price": 77.48
+          },
+          {
+            "id": "2245556f-7637-41fa-ba65-d0f59e7ee704",
+            "name": "Handcrafted Plastic Computer",
+            "weight": 521,
+            "type": "food",
+            "kcal": 435,
+            "price": 88.74
+          }
+        ]
+      },
+      "deliveryCharge": 1.5
+    },
+    {
+      "id": "3cef73a3-abc5-4a95-ad38-1c43799bced7",
+      "name": "Hyatt Group",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "572 Elroy Lights Suite 815",
+      "categories": [
+        "salad"
+      ],
+      "reviews": {
+        "average": 3.6,
+        "count": 405
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "7297d286-d744-499a-be75-7e557bd28490",
+            "name": "Ergonomic Concrete Salad",
+            "weight": 602,
+            "type": "drink",
+            "kcal": 435,
+            "price": 4.52
+          },
+          {
+            "id": "758378fa-8d66-4817-9035-02236e4bc265",
+            "name": "Unbranded Rubber Bacon",
+            "weight": 230,
+            "type": "drink",
+            "kcal": 10,
+            "price": 24.4
+          },
+          {
+            "id": "d2957c57-761a-4b8a-b2d4-3ffcaab743af",
+            "name": "Sleek Concrete Towels",
+            "weight": 440,
+            "type": "drink",
+            "kcal": 655,
+            "price": 52.89
+          },
+          {
+            "id": "837f4e2f-2c1b-4cc5-a0e8-f59a5cd30cac",
+            "name": "Handcrafted Fresh Ball",
+            "weight": 817,
+            "type": "drink",
+            "kcal": 845,
+            "price": 47.25
+          },
+          {
+            "id": "9c5c472d-4dd1-45a6-b77f-d31f7460d85c",
+            "name": "Awesome Concrete Bacon",
+            "weight": 714,
+            "type": "food",
+            "kcal": 591,
+            "price": 9.78
+          },
+          {
+            "id": "dfaa23ca-18d8-421f-a252-ebcb905b74eb",
+            "name": "Licensed Metal Ball",
+            "weight": 652,
+            "type": "food",
+            "kcal": 709,
+            "price": 38.73
+          }
+        ]
+      },
+      "deliveryCharge": 2.5
+    },
+    {
+      "id": "f004c9e4-09a6-4df1-80ce-a37bbdea4cef",
+      "name": "Kulas - Stoltenberg",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "472 Percy Street Suite 498",
+      "categories": [
+        "pizza",
+        "kebab"
+      ],
+      "reviews": {
+        "average": 4.3,
+        "count": 127
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "d41568bd-96a0-4167-86e6-746c3a4f6e64",
+            "name": "Rustic Fresh Mouse",
+            "weight": 574,
+            "type": "drink",
+            "kcal": 997,
+            "price": 80.95
+          },
+          {
+            "id": "59b607d9-5408-40b8-a418-14680a840370",
+            "name": "Ergonomic Frozen Shoes",
+            "weight": 194,
+            "type": "food",
+            "kcal": 178,
+            "price": 13.5
+          },
+          {
+            "id": "27649ff4-3151-472f-9e35-b4b230eb4cf5",
+            "name": "Small Fresh Computer",
+            "weight": 768,
+            "type": "food",
+            "kcal": 863,
+            "price": 16.93
+          },
+          {
+            "id": "39e2ced7-66f9-436e-b90a-497eb34b60a1",
+            "name": "Small Cotton Bacon",
+            "weight": 788,
+            "type": "food",
+            "kcal": 985,
+            "price": 4.14
+          },
+          {
+            "id": "3e00f814-f218-4bc3-bb49-42bafb1eaa16",
+            "name": "Refined Wooden Chicken",
+            "weight": 41,
+            "type": "food",
+            "kcal": 702,
+            "price": 35.27
+          }
+        ]
+      },
+      "deliveryCharge": 1
+    },
+    {
+      "id": "3e8046a6-0039-4234-ab70-9bac0fdcb8c3",
+      "name": "Jenkins, Raynor and Murphy",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "000 Antwon Keys Suite 777",
+      "categories": [
+        "kebab",
+        "salad",
+        "chinese"
+      ],
+      "reviews": {
+        "average": 2.2,
+        "count": 3
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "8ba46d31-4e3f-4573-8ff7-0b93c9a80602",
+            "name": "Awesome Granite Shirt",
+            "weight": 199,
+            "type": "drink",
+            "kcal": 711,
+            "price": 54.25
+          },
+          {
+            "id": "a4063599-7d92-4a0b-bc2c-bffb387fde9b",
+            "name": "Fantastic Metal Towels",
+            "weight": 356,
+            "type": "food",
+            "kcal": 496,
+            "price": 33.19
+          },
+          {
+            "id": "5866c6fa-d7d8-4b9a-8f63-e9cfca2c3550",
+            "name": "Unbranded Metal Towels",
+            "weight": 577,
+            "type": "food",
+            "kcal": 66,
+            "price": 53.53
+          },
+          {
+            "id": "4ca995d8-3cdf-43b7-a486-3f2d35cf3be9",
+            "name": "Generic Plastic Mouse",
+            "weight": 687,
+            "type": "food",
+            "kcal": 926,
+            "price": 14.94
+          },
+          {
+            "id": "1b26cdb5-aae9-4a25-9152-23d4bb253132",
+            "name": "Gorgeous Metal Fish",
+            "weight": 358,
+            "type": "food",
+            "kcal": 742,
+            "price": 54.46
+          },
+          {
+            "id": "25a9f4ed-3216-4584-8188-f9716af1a028",
+            "name": "Awesome Concrete Salad",
+            "weight": 945,
+            "type": "drink",
+            "kcal": 582,
+            "price": 24.04
+          },
+          {
+            "id": "fda7375f-ce51-4bc0-bd86-7c276b115126",
+            "name": "Rustic Plastic Keyboard",
+            "weight": 533,
+            "type": "drink",
+            "kcal": 588,
+            "price": 33.84
+          },
+          {
+            "id": "c83136f8-55b1-4f31-a6ec-523a1ee7e23d",
+            "name": "Sleek Plastic Shirt",
+            "weight": 659,
+            "type": "drink",
+            "kcal": 287,
+            "price": 62.94
+          },
+          {
+            "id": "42c65c68-484d-4c9e-bd4f-2681c86a3a8a",
+            "name": "Ergonomic Soft Salad",
+            "weight": 33,
+            "type": "drink",
+            "kcal": 894,
+            "price": 20.86
+          },
+          {
+            "id": "9bee1faf-9cfc-4af1-97ab-a129625b1c52",
+            "name": "Fantastic Concrete Shoes",
+            "weight": 226,
+            "type": "drink",
+            "kcal": 107,
+            "price": 68.78
+          },
+          {
+            "id": "9a107b7b-7568-47a4-bbd0-3d0d40e1ad30",
+            "name": "Small Wooden Sausages",
+            "weight": 288,
+            "type": "drink",
+            "kcal": 353,
+            "price": 91.07
+          },
+          {
+            "id": "2c8e763c-f3d1-4d22-bdb2-afe734fd38b9",
+            "name": "Ergonomic Frozen Towels",
+            "weight": 318,
+            "type": "drink",
+            "kcal": 71,
+            "price": 32.98
+          }
+        ]
+      },
+      "deliveryCharge": 3.5
+    },
+    {
+      "id": "0f2d4cd7-e1ac-4243-82ed-c8ad3f1accc1",
+      "name": "Bednar - Farrell",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "50050 Efren Viaduct Suite 387",
+      "categories": [
+        "sushi",
+        "pasta"
+      ],
+      "reviews": {
+        "average": 3.2,
+        "count": 328
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "8ea3584d-0afb-49f7-ad6b-6ceaf4645321",
+            "name": "Rustic Soft Ball",
+            "weight": 86,
+            "type": "drink",
+            "kcal": 693,
+            "price": 70.02
+          },
+          {
+            "id": "33504df3-df90-4317-939c-76c93fd70060",
+            "name": "Licensed Steel Chips",
+            "weight": 563,
+            "type": "food",
+            "kcal": 978,
+            "price": 25.94
+          },
+          {
+            "id": "f40818f2-9080-4234-8729-0f96d45ad128",
+            "name": "Rustic Concrete Pants",
+            "weight": 6,
+            "type": "food",
+            "kcal": 990,
+            "price": 14.37
+          },
+          {
+            "id": "e8719dfe-10a7-4364-94d9-a8662b5c576f",
+            "name": "Small Soft Chair",
+            "weight": 451,
+            "type": "drink",
+            "kcal": 321,
+            "price": 94.51
+          },
+          {
+            "id": "9ec3ca67-9ede-4789-97d3-a2283a9df254",
+            "name": "Fantastic Steel Car",
+            "weight": 808,
+            "type": "drink",
+            "kcal": 879,
+            "price": 91.82
+          },
+          {
+            "id": "88c1f230-5e4c-468a-98cf-2787100ccc49",
+            "name": "Tasty Steel Shirt",
+            "weight": 859,
+            "type": "food",
+            "kcal": 904,
+            "price": 89.66
+          },
+          {
+            "id": "e404606a-ba73-4c01-a7d0-a0f2ca39741e",
+            "name": "Handmade Cotton Bike",
+            "weight": 322,
+            "type": "drink",
+            "kcal": 913,
+            "price": 7.07
+          },
+          {
+            "id": "2e0c31bb-dad5-4ba5-9728-2dc7ad5bd607",
+            "name": "Gorgeous Rubber Towels",
+            "weight": 341,
+            "type": "drink",
+            "kcal": 14,
+            "price": 91.82
+          },
+          {
+            "id": "44ddf9f6-d818-466c-8ba2-841bc0a6abb2",
+            "name": "Handcrafted Granite Table",
+            "weight": 236,
+            "type": "food",
+            "kcal": 324,
+            "price": 70.5
+          },
+          {
+            "id": "de9eaf2e-5cc7-4d92-9133-0bd4d89bb4c3",
+            "name": "Unbranded Frozen Table",
+            "weight": 677,
+            "type": "food",
+            "kcal": 101,
+            "price": 25.26
+          },
+          {
+            "id": "daba1057-3880-4f84-b414-3cf07be24629",
+            "name": "Generic Plastic Sausages",
+            "weight": 422,
+            "type": "drink",
+            "kcal": 894,
+            "price": 37.81
+          },
+          {
+            "id": "86abff2a-e27d-4486-91a3-4427c546a13f",
+            "name": "Refined Soft Towels",
+            "weight": 743,
+            "type": "drink",
+            "kcal": 497,
+            "price": 6.54
+          },
+          {
+            "id": "66c8a934-9165-41b9-ac62-a30a18c84068",
+            "name": "Incredible Concrete Bike",
+            "weight": 64,
+            "type": "food",
+            "kcal": 693,
+            "price": 4.22
+          }
+        ]
+      },
+      "deliveryCharge": 2.8
+    },
+    {
+      "id": "f091c801-7aff-47ac-bcf6-4a1a827ea0fe",
+      "name": "Ebert, Bartoletti and Marvin",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "076 Pamela Cape Apt. 062",
+      "categories": [
+        "sushi",
+        "pizza"
+      ],
+      "reviews": {
+        "average": 3.3,
+        "count": 34
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "b57cd83d-e5d3-4173-ab38-3017728dbf8e",
+            "name": "Ergonomic Frozen Shoes",
+            "weight": 587,
+            "type": "food",
+            "kcal": 309,
+            "price": 42.77
+          },
+          {
+            "id": "a1b91264-6b78-444b-b57b-adfc06346c96",
+            "name": "Incredible Cotton Fish",
+            "weight": 700,
+            "type": "food",
+            "kcal": 702,
+            "price": 8.68
+          },
+          {
+            "id": "c13be14d-4a1c-4ea7-8ffe-e57191d5f3a4",
+            "name": "Ergonomic Granite Keyboard",
+            "weight": 679,
+            "type": "drink",
+            "kcal": 687,
+            "price": 31.99
+          },
+          {
+            "id": "7053aee9-73da-49d6-b61b-996f1ad4d185",
+            "name": "Ergonomic Rubber Salad",
+            "weight": 991,
+            "type": "food",
+            "kcal": 636,
+            "price": 71.45
+          },
+          {
+            "id": "0bcbbbbb-6f02-4001-bdb0-af253b8dd333",
+            "name": "Ergonomic Soft Pants",
+            "weight": 22,
+            "type": "food",
+            "kcal": 400,
+            "price": 4.4
+          },
+          {
+            "id": "59ed45f6-cace-4739-8810-4e2a634d8385",
+            "name": "Handmade Plastic Keyboard",
+            "weight": 444,
+            "type": "drink",
+            "kcal": 132,
+            "price": 62.74
+          },
+          {
+            "id": "d2d8e043-6df9-4bb5-ac5d-b820e117ec14",
+            "name": "Gorgeous Frozen Ball",
+            "weight": 635,
+            "type": "food",
+            "kcal": 615,
+            "price": 38.75
+          }
+        ]
+      },
+      "deliveryCharge": 2.4
+    },
+    {
+      "id": "f2b86d9e-2ea8-4dbc-88f8-35bc71ba2b48",
+      "name": "Corwin, Anderson and Schuster",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "3145 Lura Street Suite 038",
+      "categories": [
+        "salad",
+        "chinese"
+      ],
+      "reviews": {
+        "average": 1.9,
+        "count": 325
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "70727aab-8329-4e7b-a041-9133cf2390d0",
+            "name": "Gorgeous Rubber Ball",
+            "weight": 959,
+            "type": "food",
+            "kcal": 503,
+            "price": 57.84
+          },
+          {
+            "id": "c834c0e8-e4e2-4b12-a870-c60fc1f9e2c1",
+            "name": "Sleek Metal Salad",
+            "weight": 898,
+            "type": "food",
+            "kcal": 324,
+            "price": 77.79
+          },
+          {
+            "id": "94c8fb92-9eeb-45cb-bd1d-b65780a42cb2",
+            "name": "Sleek Granite Bike",
+            "weight": 335,
+            "type": "food",
+            "kcal": 93,
+            "price": 57.02
+          },
+          {
+            "id": "c0c4884d-1a76-4410-be2e-45aeebc98a80",
+            "name": "Generic Cotton Table",
+            "weight": 6,
+            "type": "drink",
+            "kcal": 965,
+            "price": 95.35
+          },
+          {
+            "id": "6cd37778-40a2-4434-8aad-10ebaa57fe4a",
+            "name": "Incredible Soft Bike",
+            "weight": 943,
+            "type": "drink",
+            "kcal": 779,
+            "price": 80.03
+          },
+          {
+            "id": "2316d78d-bc10-4cee-9449-046e42db3051",
+            "name": "Handcrafted Plastic Cheese",
+            "weight": 854,
+            "type": "drink",
+            "kcal": 853,
+            "price": 39.56
+          },
+          {
+            "id": "5822a8e1-9f5d-4611-96cc-e8fc759978e4",
+            "name": "Handcrafted Frozen Towels",
+            "weight": 666,
+            "type": "food",
+            "kcal": 504,
+            "price": 77.18
+          },
+          {
+            "id": "7857f3f3-2ed4-4f7b-88ac-4c22880a740f",
+            "name": "Sleek Concrete Soap",
+            "weight": 81,
+            "type": "food",
+            "kcal": 586,
+            "price": 39.72
+          },
+          {
+            "id": "9433053b-ab36-41e2-8570-bbb8db75f1ca",
+            "name": "Intelligent Concrete Table",
+            "weight": 108,
+            "type": "drink",
+            "kcal": 700,
+            "price": 12.69
+          },
+          {
+            "id": "648a4b8a-5dba-41ae-911e-f00e9cf5ded4",
+            "name": "Handmade Wooden Hat",
+            "weight": 157,
+            "type": "drink",
+            "kcal": 836,
+            "price": 45.48
+          },
+          {
+            "id": "7067a3c4-5f7b-4490-9323-ca62ae1520be",
+            "name": "Awesome Rubber Gloves",
+            "weight": 431,
+            "type": "drink",
+            "kcal": 185,
+            "price": 3.15
+          },
+          {
+            "id": "e7ed9c72-7016-436a-b1b2-83623f52f577",
+            "name": "Fantastic Granite Mouse",
+            "weight": 586,
+            "type": "food",
+            "kcal": 701,
+            "price": 85.02
+          },
+          {
+            "id": "85d48130-bf59-4f03-b06a-f4ba7e291531",
+            "name": "Gorgeous Concrete Keyboard",
+            "weight": 109,
+            "type": "food",
+            "kcal": 253,
+            "price": 49.31
+          },
+          {
+            "id": "0014da50-1404-4ed0-a1b9-16b22eb9c47c",
+            "name": "Handcrafted Rubber Fish",
+            "weight": 76,
+            "type": "food",
+            "kcal": 457,
+            "price": 80.09
+          }
+        ]
+      },
+      "deliveryCharge": 2.9
+    },
+    {
+      "id": "4726ed44-53e9-495a-8d53-43ed04798ade",
+      "name": "Fisher, Hettinger and Jaskolski",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "3998 Bernhard Street Apt. 064",
+      "categories": [
+        "sushi"
+      ],
+      "reviews": {
+        "average": 3.6,
+        "count": 367
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "7e89beae-d4e7-4d35-aab8-a77e557022fc",
+            "name": "Handmade Fresh Cheese",
+            "weight": 440,
+            "type": "food",
+            "kcal": 340,
+            "price": 99.69
+          },
+          {
+            "id": "ffb94a25-4930-479e-be99-cc907785bf47",
+            "name": "Sleek Soft Salad",
+            "weight": 188,
+            "type": "drink",
+            "kcal": 58,
+            "price": 31.36
+          },
+          {
+            "id": "f5c35a01-5057-4d0a-b231-4d72d1fa3387",
+            "name": "Awesome Rubber Gloves",
+            "weight": 74,
+            "type": "food",
+            "kcal": 958,
+            "price": 64.67
+          },
+          {
+            "id": "5836880e-c446-464d-bec3-37fbc40838cb",
+            "name": "Handmade Plastic Gloves",
+            "weight": 696,
+            "type": "food",
+            "kcal": 34,
+            "price": 2.17
+          },
+          {
+            "id": "6e33105d-3bfe-4dcd-b9a0-5473fe3cd818",
+            "name": "Sleek Soft Table",
+            "weight": 550,
+            "type": "food",
+            "kcal": 370,
+            "price": 61.34
+          }
+        ]
+      },
+      "deliveryCharge": 1
+    },
+    {
+      "id": "92538385-bd11-47d7-bc1d-f552c77c0314",
+      "name": "Skiles, Kilback and Reichel",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "19626 Ferry Roads Suite 701",
+      "categories": [
+        "pasta",
+        "chinese",
+        "burgers"
+      ],
+      "reviews": {
+        "average": 1.4,
+        "count": 213
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "4a83fd8b-b49b-4fe6-bebd-4d1039f4a39e",
+            "name": "Handmade Plastic Shoes",
+            "weight": 519,
+            "type": "food",
+            "kcal": 213,
+            "price": 10.23
+          },
+          {
+            "id": "6e0c0a22-8578-4b78-b952-d3b22b1a3442",
+            "name": "Ergonomic Soft Chair",
+            "weight": 181,
+            "type": "drink",
+            "kcal": 667,
+            "price": 45.35
+          },
+          {
+            "id": "e09b246d-81c2-4ecd-92ca-30f7401039c2",
+            "name": "Handmade Soft Fish",
+            "weight": 68,
+            "type": "drink",
+            "kcal": 616,
+            "price": 63.54
+          },
+          {
+            "id": "bb73fc66-d6c1-48a3-9c81-b4f76408bf46",
+            "name": "Tasty Concrete Pants",
+            "weight": 839,
+            "type": "food",
+            "kcal": 887,
+            "price": 86.64
+          },
+          {
+            "id": "f0c6e397-d4cc-4d32-b713-6ec9bb8e402f",
+            "name": "Rustic Metal Sausages",
+            "weight": 714,
+            "type": "drink",
+            "kcal": 798,
+            "price": 15.71
+          },
+          {
+            "id": "ebd97880-10b9-4b6a-b127-873773fc27a6",
+            "name": "Gorgeous Cotton Tuna",
+            "weight": 537,
+            "type": "food",
+            "kcal": 603,
+            "price": 53.24
+          },
+          {
+            "id": "650f0593-824a-4faf-80b0-e1275a3cb6d7",
+            "name": "Awesome Cotton Towels",
+            "weight": 742,
+            "type": "food",
+            "kcal": 829,
+            "price": 11.88
+          },
+          {
+            "id": "1fa2d1c1-1daa-4e9b-97e5-df7a3ee7e3ad",
+            "name": "Practical Steel Ball",
+            "weight": 201,
+            "type": "drink",
+            "kcal": 503,
+            "price": 56.2
+          },
+          {
+            "id": "34f07d6c-2d22-4798-a596-f203156eabdc",
+            "name": "Incredible Concrete Soap",
+            "weight": 827,
+            "type": "food",
+            "kcal": 598,
+            "price": 48.83
+          },
+          {
+            "id": "fb42ab9f-7f23-4f1d-ab9c-c1bb84640591",
+            "name": "Ergonomic Concrete Salad",
+            "weight": 960,
+            "type": "drink",
+            "kcal": 591,
+            "price": 94.96
+          },
+          {
+            "id": "40e45a03-a054-4031-a2c8-45a5b6be041d",
+            "name": "Handcrafted Granite Chair",
+            "weight": 939,
+            "type": "food",
+            "kcal": 297,
+            "price": 41.24
+          },
+          {
+            "id": "8e9805a5-91cc-4862-8e22-a4ff8bccfd0c",
+            "name": "Sleek Frozen Shoes",
+            "weight": 892,
+            "type": "drink",
+            "kcal": 132,
+            "price": 11.21
+          }
+        ]
+      },
+      "deliveryCharge": 1.7
+    },
+    {
+      "id": "027e8afb-db6e-4c33-89db-7e4338ddfa5f",
+      "name": "Carter - Schinner",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "40796 Damien Camp Apt. 875",
+      "categories": [
+        "chinese",
+        "pasta"
+      ],
+      "reviews": {
+        "average": 2.7,
+        "count": 80
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "e3a8cc07-5087-44e9-b51b-71e0a8d39963",
+            "name": "Gorgeous Frozen Bike",
+            "weight": 768,
+            "type": "drink",
+            "kcal": 767,
+            "price": 89.87
+          },
+          {
+            "id": "90934264-78a5-4a58-a042-87bdb4116266",
+            "name": "Awesome Wooden Chips",
+            "weight": 265,
+            "type": "food",
+            "kcal": 507,
+            "price": 49.61
+          },
+          {
+            "id": "78ed0d17-69f5-4637-b636-608e832cbfea",
+            "name": "Handcrafted Wooden Mouse",
+            "weight": 144,
+            "type": "drink",
+            "kcal": 838,
+            "price": 47.77
+          },
+          {
+            "id": "e7c12434-29c0-4c38-83dc-435f6cdeaf06",
+            "name": "Refined Metal Computer",
+            "weight": 320,
+            "type": "drink",
+            "kcal": 797,
+            "price": 94.19
+          },
+          {
+            "id": "74787a94-bef4-44e6-ab64-2e14070d65a2",
+            "name": "Rustic Rubber Car",
+            "weight": 80,
+            "type": "food",
+            "kcal": 234,
+            "price": 3.6
+          },
+          {
+            "id": "81deda27-a403-492e-ad7a-c59d88ca931d",
+            "name": "Gorgeous Soft Fish",
+            "weight": 248,
+            "type": "food",
+            "kcal": 436,
+            "price": 35.55
+          }
+        ]
+      },
+      "deliveryCharge": 2.6
+    },
+    {
+      "id": "cf5ccb44-91bd-4143-8084-0c9a40288e43",
+      "name": "Kub, Prosacco and Greenholt",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "20798 Alysa Rest Apt. 225",
+      "categories": [
+        "pasta",
+        "kebab",
+        "salad"
+      ],
+      "reviews": {
+        "average": 3.1,
+        "count": 487
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "9bd6c196-4824-46c8-acfe-716d1c8d7a7f",
+            "name": "Incredible Cotton Computer",
+            "weight": 375,
+            "type": "drink",
+            "kcal": 679,
+            "price": 9.45
+          },
+          {
+            "id": "066df675-8746-40fb-87a3-e78f7f3afc6d",
+            "name": "Unbranded Metal Car",
+            "weight": 332,
+            "type": "drink",
+            "kcal": 367,
+            "price": 93.1
+          },
+          {
+            "id": "9d0c7670-25e8-48a3-a723-db9ac2e34222",
+            "name": "Unbranded Soft Sausages",
+            "weight": 287,
+            "type": "food",
+            "kcal": 678,
+            "price": 5.01
+          },
+          {
+            "id": "c1f9ca15-775a-4104-9e16-fcd961ac20af",
+            "name": "Gorgeous Rubber Ball",
+            "weight": 874,
+            "type": "drink",
+            "kcal": 538,
+            "price": 63.07
+          },
+          {
+            "id": "1e0e3f55-9c4d-4bb4-9012-afa26f006cc6",
+            "name": "Licensed Concrete Chips",
+            "weight": 334,
+            "type": "drink",
+            "kcal": 494,
+            "price": 94.47
+          },
+          {
+            "id": "c7e95dba-d1da-4e31-8141-7ea6b33b4e64",
+            "name": "Awesome Plastic Tuna",
+            "weight": 903,
+            "type": "food",
+            "kcal": 334,
+            "price": 54.07
+          },
+          {
+            "id": "0b4cf892-56d3-4392-9630-cee07b7429c7",
+            "name": "Licensed Metal Car",
+            "weight": 880,
+            "type": "drink",
+            "kcal": 868,
+            "price": 28.8
+          }
+        ]
+      },
+      "deliveryCharge": 4.6
+    },
+    {
+      "id": "5d24fe74-f31e-414b-beef-baabf336510d",
+      "name": "Kuvalis, Ledner and Bednar",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "1808 Jackson Ferry Apt. 499",
+      "categories": [
+        "pizza",
+        "sushi"
+      ],
+      "reviews": {
+        "average": 2.5,
+        "count": 8
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "ee50a3e3-95a1-4ff2-b7cf-7e1a33200808",
+            "name": "Ergonomic Soft Table",
+            "weight": 251,
+            "type": "food",
+            "kcal": 285,
+            "price": 62.75
+          },
+          {
+            "id": "222c635b-322c-4614-bcb5-47ae50416683",
+            "name": "Practical Cotton Chips",
+            "weight": 712,
+            "type": "food",
+            "kcal": 161,
+            "price": 92.96
+          },
+          {
+            "id": "340491c8-dbe1-4851-9fda-bdfcb30a368e",
+            "name": "Refined Metal Tuna",
+            "weight": 853,
+            "type": "food",
+            "kcal": 269,
+            "price": 82.89
+          },
+          {
+            "id": "aebe837d-7563-4b1f-bf9c-7a8311ba1464",
+            "name": "Fantastic Soft Hat",
+            "weight": 900,
+            "type": "food",
+            "kcal": 550,
+            "price": 84.86
+          },
+          {
+            "id": "c4bac5a4-d001-4810-9386-cbc2bd6b93e9",
+            "name": "Handcrafted Wooden Cheese",
+            "weight": 267,
+            "type": "drink",
+            "kcal": 622,
+            "price": 39.86
+          },
+          {
+            "id": "0fddca4c-52e4-4842-b5f3-b5294ea16014",
+            "name": "Gorgeous Rubber Computer",
+            "weight": 676,
+            "type": "food",
+            "kcal": 201,
+            "price": 63.02
+          },
+          {
+            "id": "6f65971c-335a-4085-a436-b82d88bcfcd9",
+            "name": "Generic Wooden Sausages",
+            "weight": 113,
+            "type": "drink",
+            "kcal": 640,
+            "price": 94.51
+          },
+          {
+            "id": "3a4fedd9-076e-4e0a-b4c2-d800b145b277",
+            "name": "Fantastic Concrete Car",
+            "weight": 606,
+            "type": "drink",
+            "kcal": 958,
+            "price": 42.85
+          },
+          {
+            "id": "be88ec79-ea86-49f6-9e71-55e641e5c1c9",
+            "name": "Handmade Plastic Towels",
+            "weight": 348,
+            "type": "drink",
+            "kcal": 18,
+            "price": 82.64
+          },
+          {
+            "id": "5147329b-b68d-44db-8b1b-0b4e3ef88e64",
+            "name": "Intelligent Fresh Computer",
+            "weight": 301,
+            "type": "drink",
+            "kcal": 34,
+            "price": 3.46
+          },
+          {
+            "id": "dd6e3d0c-047c-46fc-b15e-257d411cdabc",
+            "name": "Rustic Frozen Car",
+            "weight": 629,
+            "type": "drink",
+            "kcal": 29,
+            "price": 92.91
+          },
+          {
+            "id": "b7b59741-5bf1-42bd-8cc2-b93e555931ac",
+            "name": "Unbranded Fresh Salad",
+            "weight": 637,
+            "type": "drink",
+            "kcal": 234,
+            "price": 21.59
+          },
+          {
+            "id": "a4271cb2-2aaf-4f25-b5d3-721a44cf0891",
+            "name": "Small Granite Cheese",
+            "weight": 268,
+            "type": "drink",
+            "kcal": 922,
+            "price": 84.82
+          }
+        ]
+      },
+      "deliveryCharge": 2.1
+    },
+    {
+      "id": "6da59995-0709-4924-aa0b-0f5ac95f5a11",
+      "name": "Schumm and Sons",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "263 Quitzon Mountain Apt. 710",
+      "categories": [
+        "salad",
+        "burgers"
+      ],
+      "reviews": {
+        "average": 4.9,
+        "count": 4
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "bf6d3dd2-04d8-4555-a7cb-199cc1b9de20",
+            "name": "Practical Rubber Cheese",
+            "weight": 185,
+            "type": "drink",
+            "kcal": 305,
+            "price": 32.41
+          },
+          {
+            "id": "ef915926-bf4e-481c-bdba-fb436b3894c6",
+            "name": "Handcrafted Steel Fish",
+            "weight": 832,
+            "type": "food",
+            "kcal": 550,
+            "price": 26.04
+          },
+          {
+            "id": "da413dcf-7a7d-4f53-8ece-533dd01c88b8",
+            "name": "Generic Metal Car",
+            "weight": 579,
+            "type": "drink",
+            "kcal": 477,
+            "price": 69.11
+          },
+          {
+            "id": "00a597cd-a63b-44e2-87cd-110e7a99d90d",
+            "name": "Fantastic Fresh Shoes",
+            "weight": 338,
+            "type": "food",
+            "kcal": 292,
+            "price": 96.75
+          },
+          {
+            "id": "f3f2f388-2153-4879-88ce-964a535ecba8",
+            "name": "Incredible Soft Salad",
+            "weight": 234,
+            "type": "food",
+            "kcal": 770,
+            "price": 14.47
+          },
+          {
+            "id": "5b77fd3e-5638-4fb7-b718-a527ceac0560",
+            "name": "Unbranded Wooden Bacon",
+            "weight": 912,
+            "type": "food",
+            "kcal": 988,
+            "price": 58.26
+          },
+          {
+            "id": "5a40013f-bab7-4123-91aa-0f7a4c6f392e",
+            "name": "Ergonomic Concrete Fish",
+            "weight": 353,
+            "type": "food",
+            "kcal": 934,
+            "price": 80.53
+          },
+          {
+            "id": "65ce3c48-6a32-4c5e-94a6-f66a916acbbe",
+            "name": "Incredible Fresh Computer",
+            "weight": 87,
+            "type": "drink",
+            "kcal": 946,
+            "price": 76.67
+          },
+          {
+            "id": "8dd26d4a-d0c9-4fb9-9ba1-d38e8e89fe1a",
+            "name": "Handcrafted Cotton Table",
+            "weight": 81,
+            "type": "drink",
+            "kcal": 959,
+            "price": 14.84
+          },
+          {
+            "id": "6295d37a-37ae-40d8-99c5-ba75f1624889",
+            "name": "Intelligent Granite Shirt",
+            "weight": 342,
+            "type": "drink",
+            "kcal": 305,
+            "price": 79.6
+          },
+          {
+            "id": "4d61024f-5a95-4b35-ab5c-a74a688fd4d3",
+            "name": "Small Metal Soap",
+            "weight": 338,
+            "type": "drink",
+            "kcal": 221,
+            "price": 15.61
+          },
+          {
+            "id": "d8d66f7e-9781-48e8-ac83-470a00f4ad4f",
+            "name": "Unbranded Concrete Tuna",
+            "weight": 660,
+            "type": "drink",
+            "kcal": 129,
+            "price": 37.04
+          }
+        ]
+      },
+      "deliveryCharge": 1.9
+    },
+    {
+      "id": "fd5d3413-3193-49cc-9c51-7168ce2a491d",
+      "name": "Lockman - Ortiz",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "0583 Berge Divide Suite 206",
+      "categories": [
+        "pizza",
+        "pasta"
+      ],
+      "reviews": {
+        "average": 3.1,
+        "count": 123
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "b52746ce-68d0-4003-a37f-9fc21e710973",
+            "name": "Intelligent Granite Bacon",
+            "weight": 155,
+            "type": "drink",
+            "kcal": 218,
+            "price": 98.74
+          },
+          {
+            "id": "7b63a588-9cfc-4f0d-8689-803d6e0beeb6",
+            "name": "Handcrafted Rubber Cheese",
+            "weight": 331,
+            "type": "food",
+            "kcal": 158,
+            "price": 3.02
+          },
+          {
+            "id": "651f3252-bd7d-4707-87a4-96b4e2b2124a",
+            "name": "Small Metal Fish",
+            "weight": 491,
+            "type": "food",
+            "kcal": 744,
+            "price": 30.55
+          },
+          {
+            "id": "b2a0bb56-0a96-4023-a1a6-cce7593e1f5e",
+            "name": "Incredible Fresh Bike",
+            "weight": 936,
+            "type": "food",
+            "kcal": 133,
+            "price": 22.82
+          },
+          {
+            "id": "ddb6f339-7f66-4b52-8224-69cc9698d33b",
+            "name": "Practical Fresh Towels",
+            "weight": 613,
+            "type": "food",
+            "kcal": 172,
+            "price": 15.77
+          },
+          {
+            "id": "017c62de-a0f7-4611-aebb-fdd1f9b1ceec",
+            "name": "Rustic Steel Bacon",
+            "weight": 452,
+            "type": "food",
+            "kcal": 860,
+            "price": 81.48
+          }
+        ]
+      },
+      "deliveryCharge": 1.8
+    },
+    {
+      "id": "619299f1-7b16-440c-b1ef-19faa53931d8",
+      "name": "Goyette Inc",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "35171 Kasandra Haven Suite 161",
+      "categories": [
+        "pizza"
+      ],
+      "reviews": {
+        "average": 5,
+        "count": 328
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "d3872586-e77a-4db7-93da-9143e54bb49e",
+            "name": "Licensed Wooden Tuna",
+            "weight": 370,
+            "type": "food",
+            "kcal": 834,
+            "price": 89.92
+          },
+          {
+            "id": "c4d1f964-040a-46f6-8ee1-ffd7edfcf07c",
+            "name": "Awesome Metal Tuna",
+            "weight": 590,
+            "type": "food",
+            "kcal": 392,
+            "price": 44.46
+          },
+          {
+            "id": "8b01a167-87ad-4dcd-8d1b-88f635080bea",
+            "name": "Handcrafted Soft Ball",
+            "weight": 665,
+            "type": "drink",
+            "kcal": 205,
+            "price": 68.27
+          },
+          {
+            "id": "720c8e8b-3fb9-4f54-b6dd-7f0cb478bc9b",
+            "name": "Sleek Granite Sausages",
+            "weight": 692,
+            "type": "drink",
+            "kcal": 912,
+            "price": 41.18
+          },
+          {
+            "id": "9281a3af-491f-4227-bac6-2eb8c16aef5e",
+            "name": "Licensed Cotton Shirt",
+            "weight": 294,
+            "type": "drink",
+            "kcal": 282,
+            "price": 3.31
+          },
+          {
+            "id": "14872b17-2fc7-4fe9-b2ea-c16804549406",
+            "name": "Small Soft Gloves",
+            "weight": 715,
+            "type": "food",
+            "kcal": 626,
+            "price": 79
+          },
+          {
+            "id": "25c17227-0e16-4e3b-847b-4343a53e44a0",
+            "name": "Fantastic Plastic Chair",
+            "weight": 801,
+            "type": "drink",
+            "kcal": 492,
+            "price": 52
+          },
+          {
+            "id": "78fd771e-8c07-45f4-a7e9-19f0fbbfea02",
+            "name": "Fantastic Plastic Hat",
+            "weight": 700,
+            "type": "drink",
+            "kcal": 580,
+            "price": 53.96
+          },
+          {
+            "id": "4c12c3a3-7612-4d59-bd83-9cc9bfa66fba",
+            "name": "Fantastic Plastic Sausages",
+            "weight": 19,
+            "type": "food",
+            "kcal": 922,
+            "price": 75.65
+          },
+          {
+            "id": "94b95a57-a80e-4bf3-b8c4-5c8d3e958afa",
+            "name": "Incredible Wooden Shirt",
+            "weight": 152,
+            "type": "drink",
+            "kcal": 479,
+            "price": 50.15
+          },
+          {
+            "id": "79858872-5393-4f99-af73-01ea4262b536",
+            "name": "Handmade Wooden Car",
+            "weight": 776,
+            "type": "drink",
+            "kcal": 153,
+            "price": 69.68
+          },
+          {
+            "id": "0d443e95-d714-44c0-b039-9a6a89925ccb",
+            "name": "Tasty Plastic Car",
+            "weight": 346,
+            "type": "food",
+            "kcal": 548,
+            "price": 47.52
+          },
+          {
+            "id": "fc3b0e8d-f0f0-4283-8605-d0de96d4d9c4",
+            "name": "Intelligent Granite Bacon",
+            "weight": 895,
+            "type": "food",
+            "kcal": 403,
+            "price": 11.8
+          }
+        ]
+      },
+      "deliveryCharge": 4.7
+    },
+    {
+      "id": "7daab8b4-695b-4fd0-8f79-9adcfcaa9e44",
+      "name": "Medhurst LLC",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "50232 Hegmann Plain Suite 670",
+      "categories": [
+        "chinese",
+        "pasta",
+        "salad"
+      ],
+      "reviews": {
+        "average": 2.4,
+        "count": 149
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "027ca318-f683-4205-8d37-35860e4897da",
+            "name": "Licensed Granite Ball",
+            "weight": 594,
+            "type": "food",
+            "kcal": 429,
+            "price": 45.52
+          },
+          {
+            "id": "99b94028-e183-4fc4-88e2-d72766808465",
+            "name": "Refined Steel Mouse",
+            "weight": 214,
+            "type": "food",
+            "kcal": 574,
+            "price": 55.66
+          },
+          {
+            "id": "f2aa7c33-5889-4b64-85c4-7f7fe244a805",
+            "name": "Tasty Cotton Sausages",
+            "weight": 9,
+            "type": "drink",
+            "kcal": 700,
+            "price": 49.38
+          },
+          {
+            "id": "d1e025dd-1eef-4c47-88c8-d2d2a3161183",
+            "name": "Gorgeous Fresh Ball",
+            "weight": 34,
+            "type": "drink",
+            "kcal": 698,
+            "price": 42.25
+          },
+          {
+            "id": "b364cb29-4b25-4ed2-8eba-775a4bb4b990",
+            "name": "Handcrafted Granite Fish",
+            "weight": 296,
+            "type": "food",
+            "kcal": 976,
+            "price": 50.76
+          },
+          {
+            "id": "2f66a810-759c-4d41-a362-0e7f96ff85f0",
+            "name": "Handmade Cotton Pizza",
+            "weight": 242,
+            "type": "food",
+            "kcal": 973,
+            "price": 89.32
+          },
+          {
+            "id": "087517fa-bb14-4bc2-8c71-8c61952be06e",
+            "name": "Ergonomic Metal Bacon",
+            "weight": 797,
+            "type": "food",
+            "kcal": 87,
+            "price": 39.54
+          },
+          {
+            "id": "8e6e27d9-edbf-49c0-b599-707e203c786c",
+            "name": "Handcrafted Steel Car",
+            "weight": 248,
+            "type": "food",
+            "kcal": 269,
+            "price": 77.17
+          },
+          {
+            "id": "148a6c65-f043-4706-aa5c-3bfc32afa2d6",
+            "name": "Handmade Concrete Fish",
+            "weight": 466,
+            "type": "drink",
+            "kcal": 791,
+            "price": 71.65
+          },
+          {
+            "id": "e6865d7b-aa8b-4b6e-a8e0-87eb942cbd7d",
+            "name": "Handmade Rubber Hat",
+            "weight": 388,
+            "type": "food",
+            "kcal": 952,
+            "price": 99.43
+          },
+          {
+            "id": "563fa879-1fa0-4f73-a77a-bcf6903959de",
+            "name": "Sleek Concrete Chicken",
+            "weight": 48,
+            "type": "food",
+            "kcal": 835,
+            "price": 95.1
+          }
+        ]
+      },
+      "deliveryCharge": 2.6
+    },
+    {
+      "id": "dc38aa4c-7701-4396-8b83-61eeb55c9fa6",
+      "name": "Dickens - Runolfsdottir",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "6313 Zita Plaza Suite 744",
+      "categories": [
+        "salad",
+        "sushi",
+        "pasta"
+      ],
+      "reviews": {
+        "average": 1.2,
+        "count": 84
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "6aa0fb17-8fe7-4ce1-a95c-6629b355450d",
+            "name": "Unbranded Soft Bike",
+            "weight": 205,
+            "type": "food",
+            "kcal": 786,
+            "price": 30.58
+          },
+          {
+            "id": "336e7747-2df4-4d82-b70a-a9bb43108e4a",
+            "name": "Licensed Soft Bacon",
+            "weight": 847,
+            "type": "food",
+            "kcal": 548,
+            "price": 27.94
+          },
+          {
+            "id": "24d0bae3-adec-444a-8016-127d4e01ce56",
+            "name": "Licensed Rubber Table",
+            "weight": 849,
+            "type": "drink",
+            "kcal": 619,
+            "price": 88.65
+          },
+          {
+            "id": "a189e8b0-d339-4ba4-b93a-41c6695d69a4",
+            "name": "Awesome Wooden Bike",
+            "weight": 637,
+            "type": "drink",
+            "kcal": 825,
+            "price": 74.6
+          },
+          {
+            "id": "b7b1b96f-e15b-40de-bad2-f15d119b1251",
+            "name": "Small Concrete Table",
+            "weight": 914,
+            "type": "food",
+            "kcal": 331,
+            "price": 11.89
+          },
+          {
+            "id": "2ac17ced-a9be-43d8-9fc7-78d30427121a",
+            "name": "Gorgeous Granite Mouse",
+            "weight": 512,
+            "type": "food",
+            "kcal": 416,
+            "price": 82.1
+          },
+          {
+            "id": "20cbabe3-0928-4191-acf9-6aae79075247",
+            "name": "Licensed Granite Bike",
+            "weight": 486,
+            "type": "drink",
+            "kcal": 684,
+            "price": 7.66
+          },
+          {
+            "id": "cb99fd53-e256-4559-8fb0-c97f102c0ae6",
+            "name": "Incredible Metal Pants",
+            "weight": 166,
+            "type": "food",
+            "kcal": 17,
+            "price": 63.78
+          }
+        ]
+      },
+      "deliveryCharge": 0.6
+    },
+    {
+      "id": "43323b48-47d7-4ced-ad92-f71f8fb3ca81",
+      "name": "Brekke Inc",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "70925 Rashawn Fork Suite 511",
+      "categories": [
+        "sushi",
+        "pizza",
+        "kebab"
+      ],
+      "reviews": {
+        "average": 4.4,
+        "count": 181
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "c9ce2de1-f923-47ec-83be-6d0b674b1268",
+            "name": "Practical Rubber Soap",
+            "weight": 36,
+            "type": "food",
+            "kcal": 538,
+            "price": 44.89
+          },
+          {
+            "id": "b26bee93-8c82-4c36-9a88-d4a56d6708bd",
+            "name": "Intelligent Concrete Keyboard",
+            "weight": 792,
+            "type": "drink",
+            "kcal": 330,
+            "price": 12.24
+          },
+          {
+            "id": "32dfe6a4-e145-4e46-953c-916126bec511",
+            "name": "Handcrafted Frozen Tuna",
+            "weight": 213,
+            "type": "drink",
+            "kcal": 762,
+            "price": 37
+          },
+          {
+            "id": "eb8f2a8f-20b5-4a73-8895-01ba30bab662",
+            "name": "Practical Metal Computer",
+            "weight": 146,
+            "type": "drink",
+            "kcal": 170,
+            "price": 62.58
+          },
+          {
+            "id": "23e7a40c-81be-4761-b1b3-900708084bc2",
+            "name": "Ergonomic Wooden Sausages",
+            "weight": 237,
+            "type": "food",
+            "kcal": 664,
+            "price": 78.76
+          },
+          {
+            "id": "9ae7c79c-126d-4ebf-b5aa-ba2ff0eb90ba",
+            "name": "Handmade Fresh Keyboard",
+            "weight": 446,
+            "type": "food",
+            "kcal": 983,
+            "price": 1.9
+          },
+          {
+            "id": "8351ee82-b72b-496a-a01b-d74b2fa4e69b",
+            "name": "Small Plastic Bike",
+            "weight": 260,
+            "type": "food",
+            "kcal": 634,
+            "price": 53.64
+          },
+          {
+            "id": "3d2dbc38-8ed4-4416-ac2c-4e23ddfcc801",
+            "name": "Generic Wooden Soap",
+            "weight": 686,
+            "type": "food",
+            "kcal": 45,
+            "price": 64.6
+          },
+          {
+            "id": "4dac722b-20c4-4d6f-b4e2-9ed542b4c2c5",
+            "name": "Gorgeous Plastic Gloves",
+            "weight": 585,
+            "type": "food",
+            "kcal": 850,
+            "price": 55.3
+          },
+          {
+            "id": "a9dd9f47-fe48-4755-928d-fb6ed5f1262e",
+            "name": "Handcrafted Frozen Salad",
+            "weight": 855,
+            "type": "drink",
+            "kcal": 636,
+            "price": 18.25
+          },
+          {
+            "id": "64dde41f-b665-44f8-9ba0-c60421a625b7",
+            "name": "Ergonomic Concrete Tuna",
+            "weight": 738,
+            "type": "drink",
+            "kcal": 522,
+            "price": 66.7
+          },
+          {
+            "id": "11079c7d-0e45-4087-922c-2986642642ec",
+            "name": "Handcrafted Soft Bike",
+            "weight": 57,
+            "type": "drink",
+            "kcal": 566,
+            "price": 97.35
+          }
+        ]
+      },
+      "deliveryCharge": 1.1
+    },
+    {
+      "id": "44aee19a-62de-4134-9540-0862c49b1793",
+      "name": "Koelpin and Sons",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "59541 Andreane Crossroad Suite 816",
+      "categories": [
+        "burgers",
+        "sushi",
+        "chinese"
+      ],
+      "reviews": {
+        "average": 1.2,
+        "count": 444
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "d244e328-d916-4bbd-9d46-8db054a2c294",
+            "name": "Licensed Wooden Car",
+            "weight": 675,
+            "type": "food",
+            "kcal": 463,
+            "price": 72.23
+          },
+          {
+            "id": "a303947d-1678-48b0-9b29-2252c0bc9e34",
+            "name": "Licensed Metal Chicken",
+            "weight": 2,
+            "type": "drink",
+            "kcal": 278,
+            "price": 27.98
+          },
+          {
+            "id": "4dbafd64-b690-406d-9fe9-98709197806c",
+            "name": "Gorgeous Plastic Table",
+            "weight": 131,
+            "type": "drink",
+            "kcal": 57,
+            "price": 17.39
+          },
+          {
+            "id": "0be0a701-081a-44e7-bbde-fa6ad835b839",
+            "name": "Fantastic Plastic Chair",
+            "weight": 825,
+            "type": "food",
+            "kcal": 941,
+            "price": 10.65
+          },
+          {
+            "id": "3f6c199b-6075-4d4e-8082-515327efdb39",
+            "name": "Generic Fresh Bike",
+            "weight": 10,
+            "type": "drink",
+            "kcal": 932,
+            "price": 72.85
+          },
+          {
+            "id": "5e6544eb-b1bc-4f3e-89f6-ed220727e902",
+            "name": "Fantastic Plastic Gloves",
+            "weight": 798,
+            "type": "drink",
+            "kcal": 139,
+            "price": 82.53
+          },
+          {
+            "id": "ec4c4feb-3361-4cae-8e0c-42a9f89a31d1",
+            "name": "Tasty Wooden Keyboard",
+            "weight": 811,
+            "type": "drink",
+            "kcal": 331,
+            "price": 62.93
+          },
+          {
+            "id": "7ce631d7-d902-4f16-999b-720a5ca1fd94",
+            "name": "Generic Rubber Salad",
+            "weight": 120,
+            "type": "food",
+            "kcal": 849,
+            "price": 9.47
+          },
+          {
+            "id": "30bb01ac-6d37-4132-86fe-0d1b5e803dad",
+            "name": "Small Concrete Table",
+            "weight": 308,
+            "type": "food",
+            "kcal": 838,
+            "price": 31.23
+          },
+          {
+            "id": "24c335d5-3374-4e33-8cab-163a96e054c0",
+            "name": "Handmade Metal Gloves",
+            "weight": 780,
+            "type": "drink",
+            "kcal": 62,
+            "price": 93.22
+          },
+          {
+            "id": "a513fad9-488f-483f-bb61-7590704338a8",
+            "name": "Gorgeous Soft Salad",
+            "weight": 303,
+            "type": "food",
+            "kcal": 20,
+            "price": 38.54
+          },
+          {
+            "id": "25c99a2a-e015-4b00-bf9e-ee7507f95edf",
+            "name": "Refined Concrete Soap",
+            "weight": 295,
+            "type": "food",
+            "kcal": 576,
+            "price": 25.28
+          },
+          {
+            "id": "fe88b3a9-7898-487f-a74d-711dc043f64b",
+            "name": "Unbranded Soft Cheese",
+            "weight": 575,
+            "type": "drink",
+            "kcal": 294,
+            "price": 35.24
+          }
+        ]
+      },
+      "deliveryCharge": 0.6
+    },
+    {
+      "id": "c7102355-d405-4ce4-9124-4e4c5fe22147",
+      "name": "Batz, Toy and Lynch",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "45797 Okuneva Groves Apt. 488",
+      "categories": [
+        "kebab",
+        "burgers"
+      ],
+      "reviews": {
+        "average": 2.8,
+        "count": 381
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "5d5ccbbd-df19-49fe-a21b-a8e31b4b1d3c",
+            "name": "Gorgeous Wooden Chair",
+            "weight": 900,
+            "type": "food",
+            "kcal": 959,
+            "price": 61.79
+          },
+          {
+            "id": "f02e3e27-92d9-400f-9102-43189cace106",
+            "name": "Small Frozen Mouse",
+            "weight": 12,
+            "type": "drink",
+            "kcal": 143,
+            "price": 63.8
+          },
+          {
+            "id": "a4f23bf6-2d60-4cd8-be5b-432402db7ffa",
+            "name": "Handcrafted Granite Soap",
+            "weight": 797,
+            "type": "food",
+            "kcal": 212,
+            "price": 34.92
+          },
+          {
+            "id": "cb43ccd7-7217-4b40-803f-c6c31bd2c0ce",
+            "name": "Sleek Frozen Soap",
+            "weight": 340,
+            "type": "food",
+            "kcal": 904,
+            "price": 54.34
+          },
+          {
+            "id": "02e29ff5-87fe-4a6d-ae56-fc16142c75a0",
+            "name": "Gorgeous Metal Soap",
+            "weight": 203,
+            "type": "food",
+            "kcal": 627,
+            "price": 61.09
+          },
+          {
+            "id": "2d9cb58b-08a6-43ea-9169-aa52d2b850ea",
+            "name": "Practical Metal Fish",
+            "weight": 517,
+            "type": "drink",
+            "kcal": 456,
+            "price": 17.38
+          },
+          {
+            "id": "17dd3a78-0167-4cb5-a881-aaa701183e13",
+            "name": "Tasty Concrete Soap",
+            "weight": 368,
+            "type": "food",
+            "kcal": 223,
+            "price": 81.3
+          },
+          {
+            "id": "142f8d86-27e1-4461-9862-fd4bf2c4953a",
+            "name": "Generic Concrete Chicken",
+            "weight": 385,
+            "type": "drink",
+            "kcal": 329,
+            "price": 64.08
+          },
+          {
+            "id": "7f2ada6c-c36e-40af-bdb4-5c53dab81a7a",
+            "name": "Unbranded Frozen Cheese",
+            "weight": 979,
+            "type": "drink",
+            "kcal": 423,
+            "price": 17.81
+          },
+          {
+            "id": "e474a7cc-7450-4303-8bd3-f8e0909c5f19",
+            "name": "Incredible Metal Fish",
+            "weight": 492,
+            "type": "food",
+            "kcal": 950,
+            "price": 65.18
+          },
+          {
+            "id": "b5be0f09-e3be-4835-8f4c-c30e774d9e4e",
+            "name": "Handcrafted Plastic Soap",
+            "weight": 826,
+            "type": "food",
+            "kcal": 773,
+            "price": 76.19
+          },
+          {
+            "id": "ebdf6a99-1cb9-4ec5-b5c1-7f3a6c77fc87",
+            "name": "Small Concrete Car",
+            "weight": 300,
+            "type": "drink",
+            "kcal": 312,
+            "price": 55.82
+          }
+        ]
+      },
+      "deliveryCharge": 3.1
+    },
+    {
+      "id": "fa00fa6b-4923-4d3c-8ea6-fe936e380f72",
+      "name": "Kihn - Balistreri",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "097 Dach Keys Apt. 212",
+      "categories": [
+        "pasta",
+        "salad",
+        "kebab"
+      ],
+      "reviews": {
+        "average": 1.6,
+        "count": 313
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "0e977ba1-bcc2-4425-ae1f-881c10eca044",
+            "name": "Intelligent Granite Tuna",
+            "weight": 50,
+            "type": "drink",
+            "kcal": 922,
+            "price": 92.43
+          },
+          {
+            "id": "21f3f4f8-ab21-433e-87db-4877d0154cc7",
+            "name": "Unbranded Rubber Table",
+            "weight": 674,
+            "type": "food",
+            "kcal": 947,
+            "price": 22.69
+          },
+          {
+            "id": "24460d42-b2f9-44f3-8be1-673c75b1a176",
+            "name": "Small Concrete Shirt",
+            "weight": 719,
+            "type": "drink",
+            "kcal": 967,
+            "price": 11.8
+          },
+          {
+            "id": "89bc1817-fa33-453a-b592-c3f8690cf05f",
+            "name": "Handcrafted Steel Towels",
+            "weight": 370,
+            "type": "food",
+            "kcal": 180,
+            "price": 49.94
+          },
+          {
+            "id": "9ba1f139-082d-4682-b5ee-25a418454b5a",
+            "name": "Licensed Granite Keyboard",
+            "weight": 309,
+            "type": "drink",
+            "kcal": 262,
+            "price": 37.88
+          },
+          {
+            "id": "ac195b93-d328-4e5f-b7c1-bf4f2f1db1a3",
+            "name": "Practical Fresh Gloves",
+            "weight": 26,
+            "type": "food",
+            "kcal": 330,
+            "price": 70.33
+          },
+          {
+            "id": "c94da134-c322-4885-a7db-fdd52ae98047",
+            "name": "Practical Plastic Mouse",
+            "weight": 852,
+            "type": "drink",
+            "kcal": 978,
+            "price": 34.14
+          },
+          {
+            "id": "6e5818a9-a039-4806-b901-60f5fc43fb73",
+            "name": "Intelligent Frozen Chair",
+            "weight": 238,
+            "type": "food",
+            "kcal": 709,
+            "price": 63.01
+          },
+          {
+            "id": "f59f533d-88fc-4c71-bc9b-3dc49174e014",
+            "name": "Handcrafted Cotton Shoes",
+            "weight": 272,
+            "type": "drink",
+            "kcal": 236,
+            "price": 15.54
+          }
+        ]
+      },
+      "deliveryCharge": 3.4
+    },
+    {
+      "id": "f06c99e2-34df-497a-8f1e-6e8b600e0b95",
+      "name": "Kris Group",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "4070 Bernier Prairie Suite 463",
+      "categories": [
+        "burgers"
+      ],
+      "reviews": {
+        "average": 1.9,
+        "count": 313
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "a0538ab0-38d6-4b56-a8da-768faf41a6e9",
+            "name": "Tasty Granite Keyboard",
+            "weight": 480,
+            "type": "food",
+            "kcal": 317,
+            "price": 7.25
+          },
+          {
+            "id": "83942e2f-6287-4426-b69e-e53c4c78579b",
+            "name": "Gorgeous Metal Chair",
+            "weight": 558,
+            "type": "food",
+            "kcal": 717,
+            "price": 53.23
+          },
+          {
+            "id": "f84616a8-ae48-4576-874e-c95cbcf01395",
+            "name": "Tasty Rubber Chicken",
+            "weight": 136,
+            "type": "drink",
+            "kcal": 883,
+            "price": 42.82
+          },
+          {
+            "id": "4f31ff20-829c-4412-8eb0-aa5f34c59385",
+            "name": "Generic Metal Chair",
+            "weight": 272,
+            "type": "drink",
+            "kcal": 643,
+            "price": 41.57
+          },
+          {
+            "id": "aaf7b22e-2c79-4b23-9a91-7d571615a48d",
+            "name": "Sleek Soft Car",
+            "weight": 289,
+            "type": "drink",
+            "kcal": 650,
+            "price": 48.7
+          },
+          {
+            "id": "9880914d-e062-4f24-80cc-45259ac30e2c",
+            "name": "Small Concrete Pizza",
+            "weight": 341,
+            "type": "food",
+            "kcal": 994,
+            "price": 66.57
+          },
+          {
+            "id": "0a6e63a1-7a72-4973-a6ff-92858faa0c5b",
+            "name": "Incredible Steel Tuna",
+            "weight": 331,
+            "type": "food",
+            "kcal": 653,
+            "price": 59.22
+          },
+          {
+            "id": "9d2f9099-c924-4934-b628-e9769f365c7b",
+            "name": "Rustic Steel Gloves",
+            "weight": 120,
+            "type": "food",
+            "kcal": 445,
+            "price": 49.61
+          },
+          {
+            "id": "c194ae23-e101-44f6-a591-83e9fdf6890f",
+            "name": "Ergonomic Fresh Soap",
+            "weight": 809,
+            "type": "food",
+            "kcal": 89,
+            "price": 87.06
+          },
+          {
+            "id": "ec4cec8b-f104-42e9-b66a-a28e7d51c705",
+            "name": "Intelligent Wooden Chips",
+            "weight": 92,
+            "type": "drink",
+            "kcal": 263,
+            "price": 44.56
+          },
+          {
+            "id": "c58b7d00-2c4d-4592-881f-34f1991aefb4",
+            "name": "Awesome Frozen Pizza",
+            "weight": 841,
+            "type": "food",
+            "kcal": 621,
+            "price": 44.79
+          }
+        ]
+      },
+      "deliveryCharge": 1
+    },
+    {
+      "id": "57445b38-dfd7-46af-ac24-c294f9602913",
+      "name": "Kirlin, Medhurst and Feil",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "1986 D'Amore Stream Apt. 222",
+      "categories": [
+        "pizza",
+        "pasta"
+      ],
+      "reviews": {
+        "average": 4.4,
+        "count": 428
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "29926ce9-da90-4fd9-82af-0ebb8b8d5c0b",
+            "name": "Ergonomic Wooden Table",
+            "weight": 737,
+            "type": "food",
+            "kcal": 669,
+            "price": 43.23
+          },
+          {
+            "id": "7798fc34-19fe-4141-97c8-f7b7db393c6b",
+            "name": "Sleek Cotton Chicken",
+            "weight": 10,
+            "type": "food",
+            "kcal": 609,
+            "price": 15.95
+          },
+          {
+            "id": "db7a8874-77ce-46b2-8a6c-3bdda1f51e16",
+            "name": "Handmade Metal Salad",
+            "weight": 939,
+            "type": "drink",
+            "kcal": 200,
+            "price": 57.76
+          },
+          {
+            "id": "9f091191-f85a-4722-b914-6196083e8e9d",
+            "name": "Ergonomic Plastic Chair",
+            "weight": 188,
+            "type": "drink",
+            "kcal": 97,
+            "price": 89.42
+          },
+          {
+            "id": "5f32d7bf-f471-40a5-a1e1-80da430034ac",
+            "name": "Generic Metal Towels",
+            "weight": 354,
+            "type": "drink",
+            "kcal": 329,
+            "price": 13.65
+          },
+          {
+            "id": "50447d3f-87bc-4f7e-b705-5f601974fea6",
+            "name": "Handcrafted Frozen Computer",
+            "weight": 162,
+            "type": "drink",
+            "kcal": 435,
+            "price": 95.66
+          },
+          {
+            "id": "772b8f59-d43a-438b-936a-8be96f726996",
+            "name": "Tasty Metal Shirt",
+            "weight": 851,
+            "type": "drink",
+            "kcal": 779,
+            "price": 75.29
+          },
+          {
+            "id": "73af8eff-1376-474c-8806-e44305ce54c9",
+            "name": "Fantastic Cotton Bacon",
+            "weight": 453,
+            "type": "food",
+            "kcal": 23,
+            "price": 80.68
+          },
+          {
+            "id": "98b6b402-059e-4a0c-968f-acf4eddf1cb7",
+            "name": "Handcrafted Concrete Table",
+            "weight": 208,
+            "type": "food",
+            "kcal": 348,
+            "price": 17.01
+          }
+        ]
+      },
+      "deliveryCharge": 4.2
+    },
+    {
+      "id": "74e7c462-1387-449c-b731-8a13bdce9fbd",
+      "name": "Bailey - Pacocha",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "79318 Stone Vista Apt. 489",
+      "categories": [
+        "pasta",
+        "sushi",
+        "salad"
+      ],
+      "reviews": {
+        "average": 2.6,
+        "count": 107
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "3b9ab2ab-f808-4384-ac94-dcabf36bf640",
+            "name": "Gorgeous Cotton Hat",
+            "weight": 448,
+            "type": "food",
+            "kcal": 454,
+            "price": 8.69
+          },
+          {
+            "id": "a63b5b37-8c09-4b8d-a472-de0032dcef94",
+            "name": "Generic Metal Sausages",
+            "weight": 403,
+            "type": "drink",
+            "kcal": 313,
+            "price": 44.89
+          },
+          {
+            "id": "f0df0d13-86e9-4035-acd6-21e22f80d813",
+            "name": "Incredible Cotton Chair",
+            "weight": 90,
+            "type": "food",
+            "kcal": 457,
+            "price": 12.57
+          },
+          {
+            "id": "0a0de9b5-b817-42c9-959e-90c50e4717de",
+            "name": "Intelligent Rubber Shoes",
+            "weight": 142,
+            "type": "drink",
+            "kcal": 956,
+            "price": 45.39
+          },
+          {
+            "id": "86733ca0-bc15-4447-b79d-0d7e990b3731",
+            "name": "Tasty Concrete Chair",
+            "weight": 942,
+            "type": "drink",
+            "kcal": 22,
+            "price": 19.05
+          },
+          {
+            "id": "6ba74899-5c9f-45aa-a701-ecd91c99ffb9",
+            "name": "Handcrafted Granite Ball",
+            "weight": 273,
+            "type": "drink",
+            "kcal": 45,
+            "price": 47.36
+          },
+          {
+            "id": "9c72a619-088f-4359-ae44-a177ec07c5f3",
+            "name": "Small Frozen Computer",
+            "weight": 597,
+            "type": "drink",
+            "kcal": 975,
+            "price": 19.01
+          },
+          {
+            "id": "2ee09146-ca74-469d-9804-ccff9bb5178d",
+            "name": "Gorgeous Concrete Ball",
+            "weight": 987,
+            "type": "food",
+            "kcal": 169,
+            "price": 72.77
+          },
+          {
+            "id": "ce17e519-ccb3-4981-aaa3-812fed49a0fb",
+            "name": "Gorgeous Wooden Computer",
+            "weight": 175,
+            "type": "food",
+            "kcal": 927,
+            "price": 33.02
+          },
+          {
+            "id": "0d85db39-0944-4028-98c7-44d7a8f63ff0",
+            "name": "Fantastic Plastic Gloves",
+            "weight": 327,
+            "type": "drink",
+            "kcal": 717,
+            "price": 91.44
+          },
+          {
+            "id": "97b92298-bd00-4b35-840d-ed58204eca35",
+            "name": "Ergonomic Cotton Hat",
+            "weight": 204,
+            "type": "drink",
+            "kcal": 476,
+            "price": 85.46
+          }
+        ]
+      },
+      "deliveryCharge": 3
+    },
+    {
+      "id": "04ebb197-02f5-4016-ab96-957b25707d32",
+      "name": "Wiza - Conn",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "46318 Brody Vista Suite 206",
+      "categories": [
+        "sushi"
+      ],
+      "reviews": {
+        "average": 2.4,
+        "count": 286
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "ed1d43ea-db6d-4dac-8969-f3554df2c6d5",
+            "name": "Gorgeous Wooden Pizza",
+            "weight": 879,
+            "type": "food",
+            "kcal": 912,
+            "price": 84.95
+          },
+          {
+            "id": "173278e9-5d6a-42b8-ad23-f72e8a99dd7d",
+            "name": "Refined Plastic Tuna",
+            "weight": 583,
+            "type": "drink",
+            "kcal": 179,
+            "price": 83.42
+          },
+          {
+            "id": "2a426fc2-589c-4aa2-877d-2cf90c322152",
+            "name": "Sleek Rubber Soap",
+            "weight": 108,
+            "type": "food",
+            "kcal": 496,
+            "price": 32.85
+          },
+          {
+            "id": "8513a543-2d64-4303-8a70-90ea3af09406",
+            "name": "Generic Steel Fish",
+            "weight": 276,
+            "type": "drink",
+            "kcal": 299,
+            "price": 73.39
+          },
+          {
+            "id": "73c364d4-f76a-40b9-befa-e62f630d5297",
+            "name": "Handmade Wooden Ball",
+            "weight": 771,
+            "type": "drink",
+            "kcal": 548,
+            "price": 84.48
+          },
+          {
+            "id": "79e26eae-8648-4f6c-b6ea-447f6aee9b11",
+            "name": "Tasty Concrete Bacon",
+            "weight": 71,
+            "type": "drink",
+            "kcal": 43,
+            "price": 37.78
+          },
+          {
+            "id": "ce2ddeb5-1165-4caa-be6c-c1203ca3c554",
+            "name": "Generic Soft Chips",
+            "weight": 747,
+            "type": "drink",
+            "kcal": 320,
+            "price": 26.43
+          },
+          {
+            "id": "a7bdb349-b22e-4cb3-99b8-edcc6603d344",
+            "name": "Intelligent Granite Shirt",
+            "weight": 247,
+            "type": "food",
+            "kcal": 998,
+            "price": 9.82
+          },
+          {
+            "id": "d65cfe1a-d71d-46ea-bb00-2939c57417c4",
+            "name": "Tasty Wooden Bacon",
+            "weight": 813,
+            "type": "drink",
+            "kcal": 670,
+            "price": 16.79
+          },
+          {
+            "id": "56253d7d-5b72-4945-88ff-b5acc223a74b",
+            "name": "Rustic Frozen Chicken",
+            "weight": 984,
+            "type": "food",
+            "kcal": 363,
+            "price": 10.7
+          },
+          {
+            "id": "63e184aa-16a5-436c-89a8-0bad73f99c40",
+            "name": "Licensed Soft Car",
+            "weight": 409,
+            "type": "food",
+            "kcal": 625,
+            "price": 94.25
+          },
+          {
+            "id": "579a3d39-3b91-4254-9e13-2c7f73a286da",
+            "name": "Fantastic Wooden Gloves",
+            "weight": 635,
+            "type": "drink",
+            "kcal": 89,
+            "price": 73.86
+          }
+        ]
+      },
+      "deliveryCharge": 4.2
+    },
+    {
+      "id": "9fdc58d0-86d2-408c-bb21-0698842d85e2",
+      "name": "King, Schiller and Dicki",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "872 Ondricka Unions Suite 235",
+      "categories": [
+        "pasta",
+        "burgers",
+        "pizza"
+      ],
+      "reviews": {
+        "average": 2.1,
+        "count": 157
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "26cb1aa3-06bc-4d86-95c0-20ad0ef512ee",
+            "name": "Handmade Steel Cheese",
+            "weight": 573,
+            "type": "food",
+            "kcal": 127,
+            "price": 13.25
+          },
+          {
+            "id": "50b9fc72-3087-4c48-9a61-b05fbbe824de",
+            "name": "Refined Plastic Keyboard",
+            "weight": 232,
+            "type": "food",
+            "kcal": 741,
+            "price": 5.41
+          },
+          {
+            "id": "a57ba395-c017-4083-a6b1-1fd8243d8cf0",
+            "name": "Intelligent Concrete Gloves",
+            "weight": 560,
+            "type": "food",
+            "kcal": 495,
+            "price": 19.82
+          },
+          {
+            "id": "80cf48bb-61c0-45c2-b2dc-6a0b89fdeff2",
+            "name": "Unbranded Granite Table",
+            "weight": 723,
+            "type": "food",
+            "kcal": 910,
+            "price": 14.26
+          },
+          {
+            "id": "fbe3a35e-f2d9-4784-8a66-de4d0ac57594",
+            "name": "Ergonomic Soft Hat",
+            "weight": 78,
+            "type": "drink",
+            "kcal": 200,
+            "price": 65.39
+          },
+          {
+            "id": "297e963d-8930-447d-b835-62a9d74443a8",
+            "name": "Fantastic Steel Bacon",
+            "weight": 130,
+            "type": "food",
+            "kcal": 147,
+            "price": 49.77
+          },
+          {
+            "id": "75d30a3e-f121-46cb-b603-aa92e6a1f39c",
+            "name": "Awesome Rubber Pants",
+            "weight": 977,
+            "type": "drink",
+            "kcal": 124,
+            "price": 15.99
+          },
+          {
+            "id": "76c2ae7d-58f2-445b-9a15-d4676b5b4ec6",
+            "name": "Unbranded Soft Pizza",
+            "weight": 898,
+            "type": "food",
+            "kcal": 216,
+            "price": 83.6
+          },
+          {
+            "id": "04720013-6e11-48eb-bd12-f2188b05ba14",
+            "name": "Intelligent Plastic Salad",
+            "weight": 231,
+            "type": "drink",
+            "kcal": 119,
+            "price": 13.5
+          },
+          {
+            "id": "af4f4be0-0ae3-462c-bc75-b60717d69911",
+            "name": "Ergonomic Fresh Chips",
+            "weight": 455,
+            "type": "drink",
+            "kcal": 60,
+            "price": 59.68
+          }
+        ]
+      },
+      "deliveryCharge": 4.8
+    },
+    {
+      "id": "e201412c-cecb-4036-8732-60a5d7681360",
+      "name": "Prosacco - Kuphal",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "850 Barton Falls Apt. 710",
+      "categories": [
+        "burgers",
+        "salad"
+      ],
+      "reviews": {
+        "average": 1.4,
+        "count": 401
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "76b16449-fbf7-45ac-8ac2-4669ab883caa",
+            "name": "Tasty Soft Hat",
+            "weight": 886,
+            "type": "food",
+            "kcal": 925,
+            "price": 59.17
+          },
+          {
+            "id": "53cd73db-bf30-4df5-93f2-2b7041055659",
+            "name": "Fantastic Fresh Hat",
+            "weight": 840,
+            "type": "drink",
+            "kcal": 89,
+            "price": 15.04
+          },
+          {
+            "id": "7aeb22a3-f225-4952-8da5-0faf2276269b",
+            "name": "Practical Cotton Pizza",
+            "weight": 298,
+            "type": "drink",
+            "kcal": 734,
+            "price": 80.38
+          },
+          {
+            "id": "896ae1f6-cb13-4ec9-b1a5-a7812b223471",
+            "name": "Intelligent Concrete Pizza",
+            "weight": 780,
+            "type": "food",
+            "kcal": 776,
+            "price": 8.04
+          },
+          {
+            "id": "4bca2f36-ec21-4412-b1c2-81d70c51af82",
+            "name": "Gorgeous Frozen Table",
+            "weight": 574,
+            "type": "drink",
+            "kcal": 134,
+            "price": 24.13
+          },
+          {
+            "id": "d87d7949-66d1-4608-97f7-9efa728596c3",
+            "name": "Practical Cotton Gloves",
+            "weight": 408,
+            "type": "food",
+            "kcal": 785,
+            "price": 1.9
+          }
+        ]
+      },
+      "deliveryCharge": 3.2
+    }
+  ],
+  "popular": [
+    {
+      "id": "4726ed44-53e9-495a-8d53-43ed04798ade",
+      "name": "Fisher, Hettinger and Jaskolski",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "3998 Bernhard Street Apt. 064",
+      "categories": [
+        "sushi"
+      ],
+      "reviews": {
+        "average": 3.6,
+        "count": 367
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "7e89beae-d4e7-4d35-aab8-a77e557022fc",
+            "name": "Handmade Fresh Cheese",
+            "weight": 440,
+            "type": "food",
+            "kcal": 340,
+            "price": 99.69
+          },
+          {
+            "id": "ffb94a25-4930-479e-be99-cc907785bf47",
+            "name": "Sleek Soft Salad",
+            "weight": 188,
+            "type": "drink",
+            "kcal": 58,
+            "price": 31.36
+          },
+          {
+            "id": "f5c35a01-5057-4d0a-b231-4d72d1fa3387",
+            "name": "Awesome Rubber Gloves",
+            "weight": 74,
+            "type": "food",
+            "kcal": 958,
+            "price": 64.67
+          },
+          {
+            "id": "5836880e-c446-464d-bec3-37fbc40838cb",
+            "name": "Handmade Plastic Gloves",
+            "weight": 696,
+            "type": "food",
+            "kcal": 34,
+            "price": 2.17
+          },
+          {
+            "id": "6e33105d-3bfe-4dcd-b9a0-5473fe3cd818",
+            "name": "Sleek Soft Table",
+            "weight": 550,
+            "type": "food",
+            "kcal": 370,
+            "price": 61.34
+          }
+        ]
+      },
+      "deliveryCharge": 1
+    },
+    {
+      "id": "0f2d4cd7-e1ac-4243-82ed-c8ad3f1accc1",
+      "name": "Bednar - Farrell",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "50050 Efren Viaduct Suite 387",
+      "categories": [
+        "sushi",
+        "pasta"
+      ],
+      "reviews": {
+        "average": 3.2,
+        "count": 328
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "8ea3584d-0afb-49f7-ad6b-6ceaf4645321",
+            "name": "Rustic Soft Ball",
+            "weight": 86,
+            "type": "drink",
+            "kcal": 693,
+            "price": 70.02
+          },
+          {
+            "id": "33504df3-df90-4317-939c-76c93fd70060",
+            "name": "Licensed Steel Chips",
+            "weight": 563,
+            "type": "food",
+            "kcal": 978,
+            "price": 25.94
+          },
+          {
+            "id": "f40818f2-9080-4234-8729-0f96d45ad128",
+            "name": "Rustic Concrete Pants",
+            "weight": 6,
+            "type": "food",
+            "kcal": 990,
+            "price": 14.37
+          },
+          {
+            "id": "e8719dfe-10a7-4364-94d9-a8662b5c576f",
+            "name": "Small Soft Chair",
+            "weight": 451,
+            "type": "drink",
+            "kcal": 321,
+            "price": 94.51
+          },
+          {
+            "id": "9ec3ca67-9ede-4789-97d3-a2283a9df254",
+            "name": "Fantastic Steel Car",
+            "weight": 808,
+            "type": "drink",
+            "kcal": 879,
+            "price": 91.82
+          },
+          {
+            "id": "88c1f230-5e4c-468a-98cf-2787100ccc49",
+            "name": "Tasty Steel Shirt",
+            "weight": 859,
+            "type": "food",
+            "kcal": 904,
+            "price": 89.66
+          },
+          {
+            "id": "e404606a-ba73-4c01-a7d0-a0f2ca39741e",
+            "name": "Handmade Cotton Bike",
+            "weight": 322,
+            "type": "drink",
+            "kcal": 913,
+            "price": 7.07
+          },
+          {
+            "id": "2e0c31bb-dad5-4ba5-9728-2dc7ad5bd607",
+            "name": "Gorgeous Rubber Towels",
+            "weight": 341,
+            "type": "drink",
+            "kcal": 14,
+            "price": 91.82
+          },
+          {
+            "id": "44ddf9f6-d818-466c-8ba2-841bc0a6abb2",
+            "name": "Handcrafted Granite Table",
+            "weight": 236,
+            "type": "food",
+            "kcal": 324,
+            "price": 70.5
+          },
+          {
+            "id": "de9eaf2e-5cc7-4d92-9133-0bd4d89bb4c3",
+            "name": "Unbranded Frozen Table",
+            "weight": 677,
+            "type": "food",
+            "kcal": 101,
+            "price": 25.26
+          },
+          {
+            "id": "daba1057-3880-4f84-b414-3cf07be24629",
+            "name": "Generic Plastic Sausages",
+            "weight": 422,
+            "type": "drink",
+            "kcal": 894,
+            "price": 37.81
+          },
+          {
+            "id": "86abff2a-e27d-4486-91a3-4427c546a13f",
+            "name": "Refined Soft Towels",
+            "weight": 743,
+            "type": "drink",
+            "kcal": 497,
+            "price": 6.54
+          },
+          {
+            "id": "66c8a934-9165-41b9-ac62-a30a18c84068",
+            "name": "Incredible Concrete Bike",
+            "weight": 64,
+            "type": "food",
+            "kcal": 693,
+            "price": 4.22
+          }
+        ]
+      },
+      "deliveryCharge": 2.8
+    },
+    {
+      "id": "5d24fe74-f31e-414b-beef-baabf336510d",
+      "name": "Kuvalis, Ledner and Bednar",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "1808 Jackson Ferry Apt. 499",
+      "categories": [
+        "pizza",
+        "sushi"
+      ],
+      "reviews": {
+        "average": 2.5,
+        "count": 8
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "ee50a3e3-95a1-4ff2-b7cf-7e1a33200808",
+            "name": "Ergonomic Soft Table",
+            "weight": 251,
+            "type": "food",
+            "kcal": 285,
+            "price": 62.75
+          },
+          {
+            "id": "222c635b-322c-4614-bcb5-47ae50416683",
+            "name": "Practical Cotton Chips",
+            "weight": 712,
+            "type": "food",
+            "kcal": 161,
+            "price": 92.96
+          },
+          {
+            "id": "340491c8-dbe1-4851-9fda-bdfcb30a368e",
+            "name": "Refined Metal Tuna",
+            "weight": 853,
+            "type": "food",
+            "kcal": 269,
+            "price": 82.89
+          },
+          {
+            "id": "aebe837d-7563-4b1f-bf9c-7a8311ba1464",
+            "name": "Fantastic Soft Hat",
+            "weight": 900,
+            "type": "food",
+            "kcal": 550,
+            "price": 84.86
+          },
+          {
+            "id": "c4bac5a4-d001-4810-9386-cbc2bd6b93e9",
+            "name": "Handcrafted Wooden Cheese",
+            "weight": 267,
+            "type": "drink",
+            "kcal": 622,
+            "price": 39.86
+          },
+          {
+            "id": "0fddca4c-52e4-4842-b5f3-b5294ea16014",
+            "name": "Gorgeous Rubber Computer",
+            "weight": 676,
+            "type": "food",
+            "kcal": 201,
+            "price": 63.02
+          },
+          {
+            "id": "6f65971c-335a-4085-a436-b82d88bcfcd9",
+            "name": "Generic Wooden Sausages",
+            "weight": 113,
+            "type": "drink",
+            "kcal": 640,
+            "price": 94.51
+          },
+          {
+            "id": "3a4fedd9-076e-4e0a-b4c2-d800b145b277",
+            "name": "Fantastic Concrete Car",
+            "weight": 606,
+            "type": "drink",
+            "kcal": 958,
+            "price": 42.85
+          },
+          {
+            "id": "be88ec79-ea86-49f6-9e71-55e641e5c1c9",
+            "name": "Handmade Plastic Towels",
+            "weight": 348,
+            "type": "drink",
+            "kcal": 18,
+            "price": 82.64
+          },
+          {
+            "id": "5147329b-b68d-44db-8b1b-0b4e3ef88e64",
+            "name": "Intelligent Fresh Computer",
+            "weight": 301,
+            "type": "drink",
+            "kcal": 34,
+            "price": 3.46
+          },
+          {
+            "id": "dd6e3d0c-047c-46fc-b15e-257d411cdabc",
+            "name": "Rustic Frozen Car",
+            "weight": 629,
+            "type": "drink",
+            "kcal": 29,
+            "price": 92.91
+          },
+          {
+            "id": "b7b59741-5bf1-42bd-8cc2-b93e555931ac",
+            "name": "Unbranded Fresh Salad",
+            "weight": 637,
+            "type": "drink",
+            "kcal": 234,
+            "price": 21.59
+          },
+          {
+            "id": "a4271cb2-2aaf-4f25-b5d3-721a44cf0891",
+            "name": "Small Granite Cheese",
+            "weight": 268,
+            "type": "drink",
+            "kcal": 922,
+            "price": 84.82
+          }
+        ]
+      },
+      "deliveryCharge": 2.1
+    },
+    {
+      "id": "dc38aa4c-7701-4396-8b83-61eeb55c9fa6",
+      "name": "Dickens - Runolfsdottir",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "6313 Zita Plaza Suite 744",
+      "categories": [
+        "salad",
+        "sushi",
+        "pasta"
+      ],
+      "reviews": {
+        "average": 1.2,
+        "count": 84
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "6aa0fb17-8fe7-4ce1-a95c-6629b355450d",
+            "name": "Unbranded Soft Bike",
+            "weight": 205,
+            "type": "food",
+            "kcal": 786,
+            "price": 30.58
+          },
+          {
+            "id": "336e7747-2df4-4d82-b70a-a9bb43108e4a",
+            "name": "Licensed Soft Bacon",
+            "weight": 847,
+            "type": "food",
+            "kcal": 548,
+            "price": 27.94
+          },
+          {
+            "id": "24d0bae3-adec-444a-8016-127d4e01ce56",
+            "name": "Licensed Rubber Table",
+            "weight": 849,
+            "type": "drink",
+            "kcal": 619,
+            "price": 88.65
+          },
+          {
+            "id": "a189e8b0-d339-4ba4-b93a-41c6695d69a4",
+            "name": "Awesome Wooden Bike",
+            "weight": 637,
+            "type": "drink",
+            "kcal": 825,
+            "price": 74.6
+          },
+          {
+            "id": "b7b1b96f-e15b-40de-bad2-f15d119b1251",
+            "name": "Small Concrete Table",
+            "weight": 914,
+            "type": "food",
+            "kcal": 331,
+            "price": 11.89
+          },
+          {
+            "id": "2ac17ced-a9be-43d8-9fc7-78d30427121a",
+            "name": "Gorgeous Granite Mouse",
+            "weight": 512,
+            "type": "food",
+            "kcal": 416,
+            "price": 82.1
+          },
+          {
+            "id": "20cbabe3-0928-4191-acf9-6aae79075247",
+            "name": "Licensed Granite Bike",
+            "weight": 486,
+            "type": "drink",
+            "kcal": 684,
+            "price": 7.66
+          },
+          {
+            "id": "cb99fd53-e256-4559-8fb0-c97f102c0ae6",
+            "name": "Incredible Metal Pants",
+            "weight": 166,
+            "type": "food",
+            "kcal": 17,
+            "price": 63.78
+          }
+        ]
+      },
+      "deliveryCharge": 0.6
+    },
+    {
+      "id": "74e7c462-1387-449c-b731-8a13bdce9fbd",
+      "name": "Bailey - Pacocha",
+      "cover": "https://source.unsplash.com/collection/9632103/960x540",
+      "address": "79318 Stone Vista Apt. 489",
+      "categories": [
+        "pasta",
+        "sushi",
+        "salad"
+      ],
+      "reviews": {
+        "average": 2.6,
+        "count": 107
+      },
+      "menu": {
+        "items": [
+          {
+            "id": "3b9ab2ab-f808-4384-ac94-dcabf36bf640",
+            "name": "Gorgeous Cotton Hat",
+            "weight": 448,
+            "type": "food",
+            "kcal": 454,
+            "price": 8.69
+          },
+          {
+            "id": "a63b5b37-8c09-4b8d-a472-de0032dcef94",
+            "name": "Generic Metal Sausages",
+            "weight": 403,
+            "type": "drink",
+            "kcal": 313,
+            "price": 44.89
+          },
+          {
+            "id": "f0df0d13-86e9-4035-acd6-21e22f80d813",
+            "name": "Incredible Cotton Chair",
+            "weight": 90,
+            "type": "food",
+            "kcal": 457,
+            "price": 12.57
+          },
+          {
+            "id": "0a0de9b5-b817-42c9-959e-90c50e4717de",
+            "name": "Intelligent Rubber Shoes",
+            "weight": 142,
+            "type": "drink",
+            "kcal": 956,
+            "price": 45.39
+          },
+          {
+            "id": "86733ca0-bc15-4447-b79d-0d7e990b3731",
+            "name": "Tasty Concrete Chair",
+            "weight": 942,
+            "type": "drink",
+            "kcal": 22,
+            "price": 19.05
+          },
+          {
+            "id": "6ba74899-5c9f-45aa-a701-ecd91c99ffb9",
+            "name": "Handcrafted Granite Ball",
+            "weight": 273,
+            "type": "drink",
+            "kcal": 45,
+            "price": 47.36
+          },
+          {
+            "id": "9c72a619-088f-4359-ae44-a177ec07c5f3",
+            "name": "Small Frozen Computer",
+            "weight": 597,
+            "type": "drink",
+            "kcal": 975,
+            "price": 19.01
+          },
+          {
+            "id": "2ee09146-ca74-469d-9804-ccff9bb5178d",
+            "name": "Gorgeous Concrete Ball",
+            "weight": 987,
+            "type": "food",
+            "kcal": 169,
+            "price": 72.77
+          },
+          {
+            "id": "ce17e519-ccb3-4981-aaa3-812fed49a0fb",
+            "name": "Gorgeous Wooden Computer",
+            "weight": 175,
+            "type": "food",
+            "kcal": 927,
+            "price": 33.02
+          },
+          {
+            "id": "0d85db39-0944-4028-98c7-44d7a8f63ff0",
+            "name": "Fantastic Plastic Gloves",
+            "weight": 327,
+            "type": "drink",
+            "kcal": 717,
+            "price": 91.44
+          },
+          {
+            "id": "97b92298-bd00-4b35-840d-ed58204eca35",
+            "name": "Ergonomic Cotton Hat",
+            "weight": 204,
+            "type": "drink",
+            "kcal": 476,
+            "price": 85.46
+          }
+        ]
+      },
+      "deliveryCharge": 3
+    }
+  ],
+  "orders": [
+    {
+      "id": "55192bec-9f27-4087-bd2b-ea81af2ad351",
+      "date": "2020-08-14T06:32:51.192Z",
+      "restaurantId": "a31990a8-5442-493b-9c72-cb4ff4b6bdaf",
+      "deliveryCharge": 3.9,
+      "address": "7318 Dino Squares Apt. 842",
+      "items": [
+        {
+          "id": "55281b57-48e0-4b15-9e57-aa42da124147",
+          "name": "Generic Fresh Gloves",
+          "weight": 592,
+          "type": "drink",
+          "kcal": 767,
+          "price": 80.71
+        },
+        {
+          "id": "3f37e6b9-c6c3-4273-8fc8-ba5cb6f648e2",
+          "name": "Unbranded Plastic Hat",
+          "weight": 661,
+          "type": "food",
+          "kcal": 354,
+          "price": 55.46
+        },
+        {
+          "id": "723eaa93-f0d8-453f-862a-90221d3cb468",
+          "name": "Intelligent Soft Shirt",
+          "weight": 864,
+          "type": "drink",
+          "kcal": 18,
+          "price": 5.06
+        }
+      ]
+    },
+    {
+      "id": "316f679d-e535-46b8-9682-20876a1fbe38",
+      "date": "2020-09-06T05:24:19.606Z",
+      "restaurantId": "f2b86d9e-2ea8-4dbc-88f8-35bc71ba2b48",
+      "deliveryCharge": 2.9,
+      "address": "2734 Leffler Ford Apt. 491",
+      "items": [
+        {
+          "id": "7067a3c4-5f7b-4490-9323-ca62ae1520be",
+          "name": "Awesome Rubber Gloves",
+          "weight": 431,
+          "type": "drink",
+          "kcal": 185,
+          "price": 3.15
+        },
+        {
+          "id": "2316d78d-bc10-4cee-9449-046e42db3051",
+          "name": "Handcrafted Plastic Cheese",
+          "weight": 854,
+          "type": "drink",
+          "kcal": 853,
+          "price": 39.56
+        },
+        {
+          "id": "0014da50-1404-4ed0-a1b9-16b22eb9c47c",
+          "name": "Handcrafted Rubber Fish",
+          "weight": 76,
+          "type": "food",
+          "kcal": 457,
+          "price": 80.09
+        }
+      ]
+    },
+    {
+      "id": "38ad1d06-760d-47c3-9b10-b8901c115560",
+      "date": "2020-09-19T04:06:54.023Z",
+      "restaurantId": "f004c9e4-09a6-4df1-80ce-a37bbdea4cef",
+      "deliveryCharge": 1,
+      "address": "81923 Hayes Isle Apt. 821",
+      "items": [
+        {
+          "id": "59b607d9-5408-40b8-a418-14680a840370",
+          "name": "Ergonomic Frozen Shoes",
+          "weight": 194,
+          "type": "food",
+          "kcal": 178,
+          "price": 13.5
+        },
+        {
+          "id": "3e00f814-f218-4bc3-bb49-42bafb1eaa16",
+          "name": "Refined Wooden Chicken",
+          "weight": 41,
+          "type": "food",
+          "kcal": 702,
+          "price": 35.27
+        },
+        {
+          "id": "39e2ced7-66f9-436e-b90a-497eb34b60a1",
+          "name": "Small Cotton Bacon",
+          "weight": 788,
+          "type": "food",
+          "kcal": 985,
+          "price": 4.14
+        }
+      ]
+    },
+    {
+      "id": "ee032973-77ed-40d2-b061-78135c4bc4a8",
+      "date": "2020-06-03T06:56:25.392Z",
+      "restaurantId": "f2b86d9e-2ea8-4dbc-88f8-35bc71ba2b48",
+      "deliveryCharge": 2.9,
+      "address": "78594 Koss Plains Suite 350",
+      "items": [
+        {
+          "id": "70727aab-8329-4e7b-a041-9133cf2390d0",
+          "name": "Gorgeous Rubber Ball",
+          "weight": 959,
+          "type": "food",
+          "kcal": 503,
+          "price": 57.84
+        },
+        {
+          "id": "7857f3f3-2ed4-4f7b-88ac-4c22880a740f",
+          "name": "Sleek Concrete Soap",
+          "weight": 81,
+          "type": "food",
+          "kcal": 586,
+          "price": 39.72
+        },
+        {
+          "id": "2316d78d-bc10-4cee-9449-046e42db3051",
+          "name": "Handcrafted Plastic Cheese",
+          "weight": 854,
+          "type": "drink",
+          "kcal": 853,
+          "price": 39.56
+        }
+      ]
+    },
+    {
+      "id": "d54477e4-9db3-4b44-8b66-8576c3691e13",
+      "date": "2020-03-12T03:17:58.542Z",
+      "restaurantId": "cf5ccb44-91bd-4143-8084-0c9a40288e43",
+      "deliveryCharge": 4.6,
+      "address": "5550 Joyce Falls Suite 826",
+      "items": [
+        {
+          "id": "9bd6c196-4824-46c8-acfe-716d1c8d7a7f",
+          "name": "Incredible Cotton Computer",
+          "weight": 375,
+          "type": "drink",
+          "kcal": 679,
+          "price": 9.45
+        },
+        {
+          "id": "066df675-8746-40fb-87a3-e78f7f3afc6d",
+          "name": "Unbranded Metal Car",
+          "weight": 332,
+          "type": "drink",
+          "kcal": 367,
+          "price": 93.1
+        },
+        {
+          "id": "9d0c7670-25e8-48a3-a723-db9ac2e34222",
+          "name": "Unbranded Soft Sausages",
+          "weight": 287,
+          "type": "food",
+          "kcal": 678,
+          "price": 5.01
+        }
+      ]
+    }
+  ]
+}

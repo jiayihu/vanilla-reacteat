@@ -1,0 +1,17 @@
+.btn--circle {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 0.25rem;
+  background-color: #fff;
+  border-color: #ccc;
+  color: var(--primary);
+}
+
+.btn.disabled,
+.btn:disabled {
+  background-color: var(--gray);
+  border-color: var(--gray);
+  opacity: 1;
+}

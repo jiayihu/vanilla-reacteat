@@ -1,0 +1,13 @@
+.order__address {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+}
+
+.order__number {
+  font-size: 1.125rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+}

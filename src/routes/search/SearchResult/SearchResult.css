@@ -1,0 +1,17 @@
+.search-result {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+}
+
+.search-result__cover {
+  border-radius: 10px;
+  height: 8rem;
+  width: 8rem;
+}
+
+.search-result__info {
+  display: grid;
+  grid-template-rows: min-content 2rem 2rem;
+}

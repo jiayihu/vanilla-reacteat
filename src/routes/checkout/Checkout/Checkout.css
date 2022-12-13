@@ -1,0 +1,8 @@
+.checkout-item {
+  display: grid;
+  grid-template-columns: minmax(2rem, auto) 1fr auto;
+  grid-gap: 0.5rem;
+}
+
+.checkout-item__count {
+}

@@ -1,0 +1,15 @@
+.review-stars {
+  font-size: 1.125em;
+}
+
+.review-stars .review-stars__star::before {
+  color: var(--gray);
+  content: '\2605';
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.review-stars .review-stars__star--solid::before {
+  color: #ffb401;
+}

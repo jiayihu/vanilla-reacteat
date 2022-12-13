@@ -1,0 +1,14 @@
+.popular-result {
+}
+
+.popular-result__cover {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.popular-result__name {
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,13 @@
+.search__popular {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 20rem;
+  grid-gap: 1.5rem;
+  overflow-x: scroll;
+}
+
+.search__nearby {
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+}

@@ -1,0 +1,33 @@
+.menu-item {
+  align-items: center;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: auto 1fr auto;
+}
+
+.menu-item__cover {
+  border-radius: 3px;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  height: 4rem;
+  width: 4rem;
+}
+
+.menu-item__info {
+  flex-grow: 1;
+  min-width: 5rem;
+}
+
+.menu-item__name {
+  display: inline-block;
+  overflow-wrap: break-word;
+  text-transform: capitalize;
+}
+
+.menu-item__specs {
+  color: var(--gray);
+}
+
+.menu-item__price {
+  font-size: 1.125em;
+  font-weight: 500;
+}

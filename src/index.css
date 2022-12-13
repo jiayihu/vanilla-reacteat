@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--gray);
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.font-weight-bold {
+  color: #000;
+  font-weight: 600 !important;
+}

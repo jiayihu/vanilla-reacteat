@@ -1,0 +1,8 @@
+.home-address-box {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+  margin-top: -10rem;
+  padding: 1rem;
+}

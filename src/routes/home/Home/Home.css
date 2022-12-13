@@ -1,0 +1,11 @@
+.home__cover {
+  width: 100%;
+}
+
+.past-orders {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 10rem;
+  grid-gap: 1.5rem;
+  overflow-x: scroll;
+}

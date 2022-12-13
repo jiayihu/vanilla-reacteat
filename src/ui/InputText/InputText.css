@@ -1,0 +1,11 @@
+.input-text {
+  color: #000;
+  font-weight: 500;
+  padding: 3rem 1rem 1.5rem 1rem;
+}
+
+.input-text:focus,
+.input-text:active {
+  border-color: #ffb401;
+  box-shadow: 0 0 0 0.1rem rgba(255, 180, 1, 0.5);
+}

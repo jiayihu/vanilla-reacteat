@@ -1,0 +1,10 @@
+.order-summary {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.order-summary__item {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
