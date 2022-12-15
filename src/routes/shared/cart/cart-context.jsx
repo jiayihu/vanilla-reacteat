@@ -1,4 +1,4 @@
-import React, { useCallback, useContext, useMemo, useReducer, useState } from 'react';
+import React, { useCallback, useContext, useMemo, useReducer } from 'react';
 
 const CartContext = React.createContext();
 
@@ -79,25 +79,25 @@ export function CartProvider(props) {
   );
 }
 
-function UseStateCartProvider(props) {
-  const [items, setItems] = useState([]);
+// function UseStateCartProvider(props) {
+//   const [items, setItems] = useState([]);
 
-  const addItem = useCallback((item) => setItems((items) => [...items, item]), []);
+//   const addItem = useCallback((item) => setItems((items) => [...items, item]), []);
 
-  const removeItem = useCallback(
-    (item) => setItems((items) => items.filter((i) => i.id !== item.id)),
-    [],
-  );
+//   const removeItem = useCallback(
+//     (item) => setItems((items) => items.filter((i) => i.id !== item.id)),
+//     [],
+//   );
 
-  const cartAPI = useMemo(() => {
-    return { addItem, removeItem };
-  }, [addItem, removeItem]);
+//   const cartAPI = useMemo(() => {
+//     return { addItem, removeItem };
+//   }, [addItem, removeItem]);
 
-  const value = useMemo(() => [items, cartAPI], [items, cartAPI]);
+//   const value = useMemo(() => [items, cartAPI], [items, cartAPI]);
 
-  return (
-    <CartContext.Provider value={value} {...props}>
-      {props.children}
-    </CartContext.Provider>
-  );
-}
+//   return (
+//     <CartContext.Provider value={value} {...props}>
+//       {props.children}
+//     </CartContext.Provider>
+//   );
+// }

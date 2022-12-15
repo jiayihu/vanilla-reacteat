@@ -18,7 +18,7 @@ export interface MenuItem {
   id: string;
   name: string;
   weight: number;
-  type: string;
+  type: 'food' | 'drink';
   kcal: number;
   price: number;
 }

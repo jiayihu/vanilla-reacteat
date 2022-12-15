@@ -1,34 +1,50 @@
 import './Restaurant.css';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback } from 'react';
+import { useQuery } from 'react-query';
+import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom';
+import { addItem, removeItem, setCartRestaurant } from '../../../redux/cart/cart.actions';
+import { selectCartItems } from '../../../redux/cart/cart.reducer';
 import { getRestaurant } from '../../../services/restaurant.service';
 import { Button } from '../../../ui/Button/Button';
 import { Icons } from '../../../ui/Icons/Icons';
 import { Image } from '../../../ui/Image/Image';
 import { Placeholder } from '../../../ui/Placeholder/Placeholder';
-import { useCart } from '../../shared/cart/cart-context';
 import { CartToast } from '../CartToast/CartToast';
 import { MenuItem } from '../MenuItem/MenuItem';
-import { Restaurant as IRestaurant } from '../restaurant.types';
 
 export function Restaurant() {
-  const [restaurant, setRestaurant] = useState<IRestaurant | null>(null);
   const navigate = useNavigate();
-  const [cart, cartAPI] = useCart(); // useCart(([cart]) => cart.items)
-  const cartItems = cart.items;
+  const dispatch = useDispatch(); // Context -> store -> store.dispatch
+  const cartItems = useSelector(selectCartItems); // useCart(([cart]) => cart.items)
 
   const params = useParams();
   const { id: restaurantId } = params;
 
-  useEffect(() => {
-    getRestaurant(restaurantId).then((restaurant) => {
-      setRestaurant(restaurant);
-      cartAPI.setRestaurant(restaurant);
-    });
-  }, [restaurantId, cartAPI]);
+  const {
+    isLoading,
+    error,
+    data: restaurant,
+  } = useQuery(
+    ['restaurant', restaurantId],
+    () => (restaurantId ? getRestaurant(restaurantId) : undefined),
+    {
+      enabled: !!restaurantId,
+      onSuccess: (restaurant) => restaurant && dispatch(setCartRestaurant(restaurant)),
+    },
+  );
+
+  // useEffect(() => {
+  //   restaurant && dispatch(setCartRestaurant(restaurant))
+  // }, [restaurant, dispatch])
 
   const handleCheckout = useCallback(() => navigate('/checkout'), [navigate]);
+
+  if (isLoading) {
+    console.log({ isLoading, error, restaurant });
+    return <div>Loading...</div>;
+  }
 
   return (
     <>
@@ -56,12 +72,12 @@ export function Restaurant() {
                     <li className="restaurant__menu-item" key={item.id}>
                       <MenuItem {...item} />
                       <div className="d-flex flex-column align-items-center">
-                        <Button variant="circle" onClick={() => cartAPI.addItem(item)}>
+                        <Button variant="circle" onClick={() => dispatch(addItem(item))}>
                           <Icons name="plus" />
                         </Button>
                         <span className="font-weight-bold my-2">{count}</span>
                         {count > 0 ? (
-                          <Button variant="circle" onClick={() => cartAPI.removeItem(item)}>
+                          <Button variant="circle" onClick={() => dispatch(removeItem(item))}>
                             <Icons name="dash" />
                           </Button>
                         ) : null}

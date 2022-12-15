@@ -1,17 +1,18 @@
 import './Checkout.css';
 
 import { useCallback } from 'react';
+import { useSelector } from 'react-redux';
 import { Navigate, useNavigate } from 'react-router-dom';
+import { selectAddress } from '../../../redux/address/address.reducer';
+import { selectCart } from '../../../redux/cart/cart.reducer';
 import { postOrder } from '../../../services/orders.service';
 import { Button } from '../../../ui/Button/Button';
-import { useAddress } from '../../shared/cart/address-context';
-import { useCart } from '../../shared/cart/cart-context';
 import { OrderItems } from '../../shared/OrderItems/OrderItems';
 import { OrderSummary } from '../../shared/OrderSummary/OrderSummary';
 
 export function Checkout() {
-  const [cart] = useCart();
-  const address = useAddress();
+  const cart = useSelector(selectCart);
+  const address = useSelector(selectAddress);
   const navigate = useNavigate();
 
   const handleConfirm = useCallback(() => {

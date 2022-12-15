@@ -1,10 +1,11 @@
 import './Search.css';
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { Navigate, useLocation } from 'react-router-dom';
+import { setAddress } from '../../../redux/address/address.actions';
 import { getPopularResults, getSearchResults } from '../../../services/search.service';
 import { Placeholder } from '../../../ui/Placeholder/Placeholder';
-import { useAddressAPI } from '../../shared/cart/address-context';
 import { PopularResult } from '../PopularResult/PopularResult';
 import { SearchFilters } from '../SearchFilters/SearchFilters';
 import { SearchResult } from '../SearchResult/SearchResult';
@@ -15,7 +16,7 @@ export function Search() {
   const [searchResults, setSearchResults] = useState(null);
   const [popularResults, setPopularResults] = useState(null);
   const [selectedCategories, setSelectedCategories] = useState([]);
-  const setAddress = useAddressAPI();
+  const dispatch = useDispatch();
 
   const location = useLocation();
   const address = new URLSearchParams(location.search).get('address');
@@ -25,9 +26,9 @@ export function Search() {
       getSearchResults({ address }).then((results) => setSearchResults(results));
       getPopularResults({ address }).then((results) => setPopularResults(results));
 
-      setAddress(address);
+      dispatch(setAddress(address));
     }
-  }, [address, setAddress]);
+  }, [address, dispatch]);
 
   const handleFilter = useCallback(
     (category) => {
