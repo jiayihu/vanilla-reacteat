@@ -1,6 +1,6 @@
 import './Restaurant.css';
 
-import React, { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getRestaurant } from '../../../services/restaurant.service';
 import { Button } from '../../../ui/Button/Button';
@@ -10,11 +10,12 @@ import { Placeholder } from '../../../ui/Placeholder/Placeholder';
 import { useCart } from '../../shared/cart/cart-context';
 import { CartToast } from '../CartToast/CartToast';
 import { MenuItem } from '../MenuItem/MenuItem';
+import { Restaurant as IRestaurant } from '../restaurant.types';
 
 export function Restaurant() {
-  const [restaurant, setRestaurant] = useState(null);
+  const [restaurant, setRestaurant] = useState<IRestaurant | null>(null);
   const navigate = useNavigate();
-  const [cart, cartAPI] = useCart();
+  const [cart, cartAPI] = useCart(); // useCart(([cart]) => cart.items)
   const cartItems = cart.items;
 
   const params = useParams();
@@ -32,8 +33,8 @@ export function Restaurant() {
   return (
     <>
       <div className="container pt-3 pb-5">
-        <Placeholder ready={restaurant !== null} rows={6}>
-          {() => (
+        <Placeholder data={restaurant} rows={6}>
+          {(restaurant) => (
             <>
               <div className="text-center">
                 <Image
@@ -49,18 +50,18 @@ export function Restaurant() {
 
               <ul className="restaurant__menu">
                 {restaurant.menu.items.map((item) => {
-                  const count = cartItems.filter((cartItem) => cartItem.id === item.id).length;
+                  const count = cartItems.filter((cartItem: any) => cartItem.id === item.id).length;
 
                   return (
                     <li className="restaurant__menu-item" key={item.id}>
                       <MenuItem {...item} />
                       <div className="d-flex flex-column align-items-center">
-                        <Button circle onClick={() => cartAPI.addItem(item)}>
+                        <Button variant="circle" onClick={() => cartAPI.addItem(item)}>
                           <Icons name="plus" />
                         </Button>
                         <span className="font-weight-bold my-2">{count}</span>
                         {count > 0 ? (
-                          <Button circle onClick={() => cartAPI.removeItem(item)}>
+                          <Button variant="circle" onClick={() => cartAPI.removeItem(item)}>
                             <Icons name="dash" />
                           </Button>
                         ) : null}

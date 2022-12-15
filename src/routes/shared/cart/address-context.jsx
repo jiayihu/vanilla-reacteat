@@ -1,6 +1,7 @@
-import React, { createContext, useContext, useState, useMemo } from 'react';
+import { createContext, useContext, useState } from 'react';
 
 const AddressContext = createContext();
+const AddressAPIContext = createContext();
 
 export function useAddress() {
   const address = useContext(AddressContext);
@@ -12,13 +13,22 @@ export function useAddress() {
   return address;
 }
 
+export function useAddressAPI() {
+  const addressAPI = useContext(AddressAPIContext);
+
+  if (!addressAPI) {
+    throw new Error('Cannot be used outside of a CartProvider');
+  }
+
+  return addressAPI;
+}
+
 export function AddressProvider(props) {
   const [address, setAddress] = useState(null);
-  const value = useMemo(() => [address, setAddress], [address]);
 
   return (
-    <AddressContext.Provider value={value} {...props}>
-      {props.children}
+    <AddressContext.Provider value={address} {...props}>
+      <AddressAPIContext.Provider value={setAddress}>{props.children}</AddressAPIContext.Provider>
     </AddressContext.Provider>
   );
 }

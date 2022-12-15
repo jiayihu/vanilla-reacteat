@@ -46,11 +46,11 @@ export function HomeAddressBox(props: Props) {
         </Field>
 
         <InputToggle id="location" checked={agree} onChange={handleAgreeChange}>
-          <span>I agree to share my location in order to get tailored offers</span>
+          I agree to share my location in order to get tailored offers
         </InputToggle>
 
         <div className="mt-3">
-          <Button type="submit" large block disabled={!address}>
+          <Button type="submit" variant="block" large disabled={!address}>
             Show restaurants
           </Button>
         </div>

@@ -1,7 +1,7 @@
 import './PastOrder.css';
 
-import React, { useCallback, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
+import { useCallback, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getRestaurant } from '../../../services/restaurant.service';
 import { Image } from '../../../ui/Image/Image';
@@ -18,8 +18,8 @@ export function PastOrder(props) {
   const handleClick = useCallback(() => navigate(`/orders/${props.id}`), [navigate, props.id]);
 
   return (
-    <Placeholder ready={restaurant !== null}>
-      {() => {
+    <Placeholder data={restaurant}>
+      {(restaurant) => {
         const uniqueNames = Array.from(
           props.items.reduce((set, item) => set.add(item.name), new Set()),
         );

@@ -1,11 +1,10 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
-import PropTypes from 'prop-types';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { RectShape } from 'react-placeholder/lib/placeholders';
 
-export function Image(props) {
+export function Image(props: any) {
   const { src, placeholderWidth, placeholderHeight, ...imgProps } = props;
   const [isLoaded, setIsLoaded] = useState(false);
-  const imageRef = useRef();
+  const imageRef = useRef<HTMLImageElement>();
 
   const handleLoad = useCallback(() => setIsLoaded(true), [setIsLoaded]);
 
@@ -37,9 +36,3 @@ export function Image(props) {
     </>
   );
 }
-
-Image.propTypes = {
-  src: PropTypes.string.isRequired,
-  placeholderWidth: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-  placeholderHeight: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-};

@@ -1,10 +1,10 @@
 import './Search.css';
 
-import React, { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
 import { getPopularResults, getSearchResults } from '../../../services/search.service';
 import { Placeholder } from '../../../ui/Placeholder/Placeholder';
-import { useAddress } from '../../shared/cart/address-context';
+import { useAddressAPI } from '../../shared/cart/address-context';
 import { PopularResult } from '../PopularResult/PopularResult';
 import { SearchFilters } from '../SearchFilters/SearchFilters';
 import { SearchResult } from '../SearchResult/SearchResult';
@@ -15,7 +15,7 @@ export function Search() {
   const [searchResults, setSearchResults] = useState(null);
   const [popularResults, setPopularResults] = useState(null);
   const [selectedCategories, setSelectedCategories] = useState([]);
-  const [, setAddress] = useAddress();
+  const setAddress = useAddressAPI();
 
   const location = useLocation();
   const address = new URLSearchParams(location.search).get('address');
@@ -40,14 +40,20 @@ export function Search() {
     [selectedCategories],
   );
 
+  const data = useMemo(
+    () =>
+      searchResults !== null && popularResults !== null ? { searchResults, popularResults } : null,
+    [searchResults, popularResults],
+  );
+
   if (!address) {
     return <Navigate to="/" />;
   }
 
   return (
     <div className="container pt-3 mb-3">
-      <Placeholder ready={searchResults !== null && popularResults !== null}>
-        {() => (
+      <Placeholder data={data}>
+        {({ searchResults, popularResults }) => (
           <>
             <h2 className="h5 text-uppercase">Popular</h2>
             <div className="search__popular">

@@ -1,4 +1,4 @@
-import React, { useCallback, useContext, useMemo, useReducer } from 'react';
+import React, { useCallback, useContext, useMemo, useReducer, useState } from 'react';
 
 const CartContext = React.createContext();
 
@@ -17,7 +17,7 @@ const initialState = {
   items: [],
 };
 
-function reducer(state, action) {
+export function reducer(state, action) {
   switch (action.type) {
     case 'SET_RESTAURANT': {
       const { restaurant } = action.payload;
@@ -58,16 +58,42 @@ export function CartProvider(props) {
     (restaurant) => dispatch({ type: 'SET_RESTAURANT', payload: { restaurant } }),
     [],
   );
+
   const addItem = useCallback((item) => dispatch({ type: 'ADD_ITEM', payload: { item } }), []);
+
   const removeItem = useCallback(
     (item) => dispatch({ type: 'REMOVE_ITEM', payload: { item } }),
     [],
   );
+
   const cartAPI = useMemo(() => {
     return { setRestaurant, addItem, removeItem };
   }, [setRestaurant, addItem, removeItem]);
 
   const value = useMemo(() => [state, cartAPI], [state, cartAPI]);
+
+  return (
+    <CartContext.Provider value={value} {...props}>
+      {props.children}
+    </CartContext.Provider>
+  );
+}
+
+function UseStateCartProvider(props) {
+  const [items, setItems] = useState([]);
+
+  const addItem = useCallback((item) => setItems((items) => [...items, item]), []);
+
+  const removeItem = useCallback(
+    (item) => setItems((items) => items.filter((i) => i.id !== item.id)),
+    [],
+  );
+
+  const cartAPI = useMemo(() => {
+    return { addItem, removeItem };
+  }, [addItem, removeItem]);
+
+  const value = useMemo(() => [items, cartAPI], [items, cartAPI]);
 
   return (
     <CartContext.Provider value={value} {...props}>

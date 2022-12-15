@@ -1,6 +1,6 @@
 import './Checkout.css';
 
-import React, { useCallback } from 'react';
+import { useCallback } from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
 import { postOrder } from '../../../services/orders.service';
 import { Button } from '../../../ui/Button/Button';
@@ -11,7 +11,7 @@ import { OrderSummary } from '../../shared/OrderSummary/OrderSummary';
 
 export function Checkout() {
   const [cart] = useCart();
-  const [address] = useAddress();
+  const address = useAddress();
   const navigate = useNavigate();
 
   const handleConfirm = useCallback(() => {
@@ -39,7 +39,7 @@ export function Checkout() {
       <hr />
       <OrderSummary items={cart.items} deliveryCharge={cart.restaurant.deliveryCharge} />
       <div className="text-center my-5">
-        <Button type="button" block large onClick={handleConfirm}>
+        <Button type="button" variant="block" large onClick={handleConfirm}>
           Confirm order
         </Button>
       </div>

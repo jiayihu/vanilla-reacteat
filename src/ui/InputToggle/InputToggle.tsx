@@ -6,7 +6,7 @@ import React, { ReactNode } from 'react';
 type Props = {
   id: string;
   children: ReactNode;
-} & Omit<React.InputHTMLAttributes<HTMLInputElement>, 'id' | 'children'>;
+} & React.InputHTMLAttributes<HTMLInputElement>;
 
 export function InputToggle(props: Props) {
   const { id, children, ...inputProps } = props;

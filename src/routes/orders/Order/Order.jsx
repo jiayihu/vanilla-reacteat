@@ -1,5 +1,4 @@
-import './Order.css';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { getOrder } from '../../../services/orders.service';
 import { getRestaurant } from '../../../services/restaurant.service';
@@ -8,6 +7,7 @@ import { Placeholder } from '../../../ui/Placeholder/Placeholder';
 import { OrderItems } from '../../shared/OrderItems/OrderItems';
 import { OrderSummary } from '../../shared/OrderSummary/OrderSummary';
 import illustrationPng from './illustration.png';
+import './Order.css';
 
 export function Order() {
   const [order, setOrder] = useState(null);
@@ -22,13 +22,18 @@ export function Order() {
     });
   }, [orderId]);
 
+  const data = useMemo(
+    () => (order && restaurant ? { order, restaurant } : null),
+    [order, restaurant],
+  );
+
   return (
     <div className="container">
       <div className="text-center">
         <img src={illustrationPng} alt="Order" className="w-50" />
       </div>
-      <Placeholder ready={order !== null && restaurant !== null}>
-        {() => {
+      <Placeholder data={data}>
+        {({ order, restaurant }) => {
           return (
             <div className="order">
               <div className="text-center">
